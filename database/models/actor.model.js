@@ -44,8 +44,8 @@ module.exports = function(sequelize, DataTypes) {
   });
 
   actor.associate = function(models){
-    actor.belongsToMany(models.Film, { as: 'Film', through: film_actor, foreignKey: "actor_id", otherKey: "film_id" });
-    actor.hasMany(models.film_actor, { as: "FilmActor", foreignKey: "actor_id" });
+    actor.belongsToMany(models.Film, { as: 'Film', through: models.FilmActor, foreignKey: "actor_id", otherKey: "film_id" });
+    actor.hasMany(models.FilmActor, { as: "FilmActor", foreignKey: "actor_id" });
   }
 
   return actor;

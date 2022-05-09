@@ -34,7 +34,7 @@ module.exports = function (sequelize, DataTypes) {
 
   language.associate = function (models) {
     language.hasMany(models.Film, { as: "Film", foreignKey: "language_id" })
-    language.hasMany(models.Film, { as: "Film", foreignKey: "original_language_id" })
+    language.hasMany(models.Film, { as: "OriginalFilm", foreignKey: "original_language_id" })
   }
   return language
 };

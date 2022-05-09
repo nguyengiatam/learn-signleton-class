@@ -6,7 +6,7 @@ const fs = require('fs');
 class Database{
     static init() {
         this.loadModels()
-        this.models.Film.findOne({where: {id: 70}}).then(val => console.log(val)).catch(err => console.log(err));
+        this.createAssocitions()
     }
 
     static loadModels(){
@@ -18,8 +18,16 @@ class Database{
             this.models[modelName] = modelList[i]
         }
     }
+
+    static createAssocitions(){
+        for (const key in this.models) {
+            if (this.models[key].associate) {
+                this.models[key].associate(this.models)
+            }
+        }
+    }
 }
 
 Database.init()
 
-module.exports = Database
+module.exports = Database.models

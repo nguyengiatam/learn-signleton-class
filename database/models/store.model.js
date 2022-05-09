@@ -61,7 +61,7 @@ module.exports = function (sequelize, DataTypes) {
   });
 
   store.associate = function (models) {
-    store.hasMany(models.Staff, { as: "Staff", foreignKey: "store_id" });
+    store.hasMany(models.Staff, { as: "StoreStaff", foreignKey: "store_id" });
     store.hasMany(models.Customer, { as: "Customer", foreignKey: "store_id" });
     store.hasMany(models.Inventory, { as: "Inventory", foreignKey: "store_id" });
     store.belongsTo(models.Address, { as: "Address", foreignKey: "address_id" });

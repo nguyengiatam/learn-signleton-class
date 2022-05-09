@@ -108,11 +108,11 @@ module.exports = function (sequelize, DataTypes) {
 
   film.associate = function (models) {
     film.belongsTo(models.Language, { as: "Language", foreignKey: "language_id" })
-    film.belongsTo(models.Language, { as: "Language", foreignKey: "original_language_id" })
-    film.belongsToMany(models.Actor, { as: 'Actor', through: film_actor, foreignKey: "film_id", otherKey: "actor_id" });
+    film.belongsTo(models.Language, { as: "OriginalLanguage", foreignKey: "original_language_id" })
+    film.belongsToMany(models.Actor, { as: 'Actor', through: models.FilmActor, foreignKey: "film_id", otherKey: "actor_id" });
     film.hasMany(models.FilmActor, { as: "FilmActor", foreignKey: "film_id" });
     film.hasMany(models.FilmCategory, { as: "FilmCategory", foreignKey: "film_id" });
-    film.belongsToMany(models.Category, { as: 'Category', through: film_category, foreignKey: "film_id", otherKey: "category_id" });
+    film.belongsToMany(models.Category, { as: 'Category', through: models.FilmCategory, foreignKey: "film_id", otherKey: "category_id" });
     film.hasMany(models.Inventory, { as: "Inventory", foreignKey: "film_id" });
   }
 

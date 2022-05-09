@@ -91,7 +91,7 @@ module.exports = function (sequelize, DataTypes) {
     staff.hasMany(models.Rental, { as: "Rental", foreignKey: "staff_id" });
     staff.hasMany(models.Payment, { as: "Payment", foreignKey: "staff_id" });
     staff.belongsTo(models.Address, { as: "Address", foreignKey: "address_id" });
-    staff.belongsTo(models.Store, { as: "Store", foreignKey: "store_id" });
+    staff.belongsTo(models.Store, { as: "StoreStaff", foreignKey: "store_id" });
     staff.hasOne(models.Store, { as: "Store", foreignKey: "staff_id" });
   }
 

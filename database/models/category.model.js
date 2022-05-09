@@ -33,7 +33,7 @@ module.exports = function(sequelize, DataTypes) {
   });
 
   category.associate = function (models) {
-    category.belongsToMany(models.Film, { as: 'Film', through: film_category, foreignKey: "category_id", otherKey: "film_id" });
+    category.belongsToMany(models.Film, { as: 'Film', through: models.FilmCategory, foreignKey: "category_id", otherKey: "film_id" });
     category.hasMany(models.FilmCategory, { as: "FilmCategory", foreignKey: "category_id" });
   }
   return category;

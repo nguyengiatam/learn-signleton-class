@@ -1,0 +1,60 @@
+Sakila Services | 13:45:49 09-05-2022 | [info] : 
+Sakila Services | 13:47:27 09-05-2022 | [info] : film not exist
+Sakila Services | 13:47:33 09-05-2022 | [info] : film not exist
+Sakila Services | 13:49:24 09-05-2022 | [info] : [object Object]
+Sakila Services | 13:50:06 09-05-2022 | [info] : [object Object]
+{
+  level: 'info',
+  message: { msgReturn: 'film not exist', code: 404, level: 'warn' },
+  label: 'Sakila Services',
+  timestamp: '13:52:51 09-05-2022'
+}
+{
+  '0': 'w',
+  '1': 'a',
+  '2': 'r',
+  '3': 'n',
+  level: 'info',
+  message: { msgReturn: 'film not exist', code: 404, level: 'warn' },
+  label: 'Sakila Services',
+  timestamp: '13:56:29 09-05-2022'
+}
+Sakila Services | 13:57:40 09-05-2022 | [info] : [object Object]
+Sakila Services | 13:59:27 09-05-2022 | [info] : [object Object]
+Sakila Services | 14:01:21 09-05-2022 | [info] : {"msgReturn":"film not exist","code":404,"level":"warn"}
+Sakila Services | 14:05:27 09-05-2022 | [info] : {"msgReturn":"film not exist","code":404,"level":"warn"}
+Sakila Services | 14:08:19 09-05-2022 | [info] : {"msgReturn":"film not exist","code":404,"level":"warn"}
+Sakila Services | 14:10:36 09-05-2022 | [info] : [object Object]
+Sakila Services | 14:16:31 09-05-2022 | [info] : undefined 
+ 
+Sakila Services | 14:19:38 09-05-2022 | [info] : undefined 
+ 
+Sakila Services | 14:21:38 09-05-2022 | [warn] : undefined 
+ 
+Sakila Services | 14:28:59 09-05-2022 | [WARN] : undefined 
+ 
+Sakila Services | 15:56:13 09-05-2022 | [WARN] : undefined 
+ 
+Sakila Services | 16:11:00 09-05-2022 | [[33MWARN[39M] : undefined 
+ 
+Sakila Services | 16:11:55 09-05-2022 | [[33MWARN[39M] : undefined 
+ 
+Sakila Services | 16:13:32 09-05-2022 | [[33MWARN[39M] : undefined 
+ 
+Sakila Services | 16:14:04 09-05-2022 | [WARN] : undefined 
+ 
+Sakila Services | 16:36:16 09-05-2022 | [[34MDEBUG[39M] : [object Object]
+Sakila Services | 16:37:26 09-05-2022 | [[34MDEBUG[39M] : undefined
+Sakila Services | 16:43:26 09-05-2022 | [[34MDEBUG[39M] : [object Object]
+Sakila Services | 16:44:01 09-05-2022 | [DEBUG] : [object Object]
+Sakila Services | 16:44:55 09-05-2022 | [ERROR] : [object Object]
+Sakila Services | 16:48:30 09-05-2022 | [[31MERROR[39M] : [object Object]
+Sakila Services | 16:55:38 09-05-2022 | [[31MERROR[39M] : [object Object]
+Sakila Services | 16:56:41 09-05-2022 | [[31MERROR[39M] : [object Object]
+Sakila Services | 17:01:37 09-05-2022 | [[31MERROR[39M] : [object Object]
+Sakila Services | 17:02:08 09-05-2022 | [[31MERROR[39M] : [object Object]
+Sakila Services | 17:19:38 09-05-2022 | [[31MERROR[39M] : [31m{ msgReturn: 'film not exist', code: 404, level: 'error' }[39m
+Sakila Services | 17:20:22 09-05-2022 | [[31MERROR[39M] : [object Object]
+Sakila Services | 17:22:50 09-05-2022 | [[32MDEBUG[39M] : [object Object]
+Sakila Services | 17:23:39 09-05-2022 | [DEBUG] : [object Object]
+Sakila Services | 17:24:36 09-05-2022 | [INFO] : [object Object]
