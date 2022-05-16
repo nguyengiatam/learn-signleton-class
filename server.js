@@ -1,19 +1,21 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
+const middleware = require('./middleware/sakila');
 const fs = require('fs');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(bodyParser.json());
 app.use(cors())
+app.use(middleware.writeLogApi)
 app.get('/', (req, res, next) => {
     res.status(200).send('this is index');
 })
 const routerNameList = fs.readdirSync('./router', 'utf8').map(val => val.toLowerCase()).filter(val => /^.*\.route\.js$/.test(val))
 routerNameList.forEach(val => {
     const route = require(`./router/${val}`)
-    const api = `/api/v1/${val.split('.').shift()}`
+    const api = `/api/${val.split('.').shift()}`
     console.log(api);
     app.use(api, route)
 })

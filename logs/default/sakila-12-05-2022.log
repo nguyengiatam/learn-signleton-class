@@ -1,0 +1,1619 @@
+Sakila Services | 09:11:00 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/film/create-film[39m
+Sakila Services | 09:11:27 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-film[39m
+Sakila Services | 09:11:57 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new[39m
+Sakila Services | 09:11:57 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":{},"error_msg":"Permissions denied","debug_msg":null}[39m
+Sakila Services | 09:12:08 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 09:12:08 12-05-2022 | [[31mERROR[39m] : SequelizeValidationError: notNull Violation: film.language_id cannot be null
+    at InstanceValidator._validate (D:\learn\signleton-class\node_modules\sequelize\lib\instance-validator.js:50:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async InstanceValidator._validateAndRunHooks (D:\learn\signleton-class\node_modules\sequelize\lib\instance-validator.js:60:7)
+    at async InstanceValidator.validate (D:\learn\signleton-class\node_modules\sequelize\lib\instance-validator.js:54:12)
+    at async model.save (D:\learn\signleton-class\node_modules\sequelize\lib\model.js:2360:7)
+    at async Function.create (D:\learn\signleton-class\node_modules\sequelize\lib\model.js:1336:12)
+    at async sakilaController.createFilm (D:\learn\signleton-class\controller\sakila.controller.js:31:18)
+    at async D:\learn\signleton-class\router\extention.js:27:17
+Sakila Services | 09:12:08 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"notNull Violation: film.language_id cannot be null"}[39m
+Sakila Services | 09:14:03 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 09:14:03 12-05-2022 | [[31mERROR[39m] : Error
+    at Query.run (D:\learn\signleton-class\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\learn\signleton-class\node_modules\sequelize\lib\sequelize.js:313:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (D:\learn\signleton-class\node_modules\sequelize\lib\dialects\abstract\query-interface.js:297:21)
+    at async model.save (D:\learn\signleton-class\node_modules\sequelize\lib\model.js:2424:35)
+    at async Function.create (D:\learn\signleton-class\node_modules\sequelize\lib\model.js:1336:12)
+    at async sakilaController.createFilm (D:\learn\signleton-class\controller\sakila.controller.js:32:18)
+    at async D:\learn\signleton-class\router\extention.js:27:17
+Sakila Services | 09:14:03 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Out of range value for column 'rental_rate' at row 1"}[39m
+Sakila Services | 09:14:49 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 09:14:49 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 1000,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 9.9,[39m
+[32m  special_features: 'C13',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 09:14:49 12-05-2022 | [[31mERROR[39m] : Error
+    at Query.run (D:\learn\signleton-class\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\learn\signleton-class\node_modules\sequelize\lib\sequelize.js:313:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (D:\learn\signleton-class\node_modules\sequelize\lib\dialects\abstract\query-interface.js:297:21)
+    at async model.save (D:\learn\signleton-class\node_modules\sequelize\lib\model.js:2424:35)
+    at async Function.create (D:\learn\signleton-class\node_modules\sequelize\lib\model.js:1336:12)
+    at async sakilaController.createFilm (D:\learn\signleton-class\controller\sakila.controller.js:34:18)
+    at async D:\learn\signleton-class\router\extention.js:27:17
+Sakila Services | 09:14:49 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Out of range value for column 'rental_rate' at row 1"}[39m
+Sakila Services | 09:17:00 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 09:17:00 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 1000,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 9.9,[39m
+[32m  special_features: 'C13',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 09:17:00 12-05-2022 | [[31mERROR[39m] : Error
+    at Query.run (D:\learn\signleton-class\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\learn\signleton-class\node_modules\sequelize\lib\sequelize.js:313:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (D:\learn\signleton-class\node_modules\sequelize\lib\dialects\abstract\query-interface.js:297:21)
+    at async model.save (D:\learn\signleton-class\node_modules\sequelize\lib\model.js:2424:35)
+    at async Function.create (D:\learn\signleton-class\node_modules\sequelize\lib\model.js:1336:12)
+    at async sakilaController.createFilm (D:\learn\signleton-class\controller\sakila.controller.js:34:18)
+    at async D:\learn\signleton-class\router\extention.js:27:17
+Sakila Services | 09:17:00 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Out of range value for column 'rental_rate' at row 1"}[39m
+Sakila Services | 09:17:38 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 09:17:38 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 1000,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 9.9,[39m
+[32m  special_features: 'C13',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 09:17:38 12-05-2022 | [[31mERROR[39m] : [31mOut of range value for column 'rental_rate' at row 1 Out of range value for column 'rental_rate' at row 1[39m Error
+    at Query.run (D:\learn\signleton-class\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\learn\signleton-class\node_modules\sequelize\lib\sequelize.js:313:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (D:\learn\signleton-class\node_modules\sequelize\lib\dialects\abstract\query-interface.js:297:21)
+    at async model.save (D:\learn\signleton-class\node_modules\sequelize\lib\model.js:2424:35)
+    at async Function.create (D:\learn\signleton-class\node_modules\sequelize\lib\model.js:1336:12)
+    at async sakilaController.createFilm (D:\learn\signleton-class\controller\sakila.controller.js:34:18)
+    at async D:\learn\signleton-class\router\extention.js:27:17
+Sakila Services | 09:17:38 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Out of range value for column 'rental_rate' at row 1"}[39m
+Sakila Services | 09:18:00 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 09:18:00 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 1000,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 9.9,[39m
+[32m  special_features: 'C13',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 09:18:00 12-05-2022 | [[31mERROR[39m] : Error
+    at Query.run (D:\learn\signleton-class\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\learn\signleton-class\node_modules\sequelize\lib\sequelize.js:313:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (D:\learn\signleton-class\node_modules\sequelize\lib\dialects\abstract\query-interface.js:297:21)
+    at async model.save (D:\learn\signleton-class\node_modules\sequelize\lib\model.js:2424:35)
+    at async Function.create (D:\learn\signleton-class\node_modules\sequelize\lib\model.js:1336:12)
+    at async sakilaController.createFilm (D:\learn\signleton-class\controller\sakila.controller.js:34:18)
+    at async D:\learn\signleton-class\router\extention.js:27:17 [31mOut of range value for column 'rental_rate' at row 1 Out of range value for column 'rental_rate' at row 1[39m
+Sakila Services | 09:18:00 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Out of range value for column 'rental_rate' at row 1"}[39m
+Sakila Services | 09:18:35 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 09:18:35 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 1000,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 9.9,[39m
+[32m  special_features: 'C13',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 09:18:35 12-05-2022 | [[31mERROR[39m] : [31mOut of range value for column 'rental_rate' at row 1 Out of range value for column 'rental_rate' at row 1[39m
+Error
+    at Query.run (D:\learn\signleton-class\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\learn\signleton-class\node_modules\sequelize\lib\sequelize.js:313:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (D:\learn\signleton-class\node_modules\sequelize\lib\dialects\abstract\query-interface.js:297:21)
+    at async model.save (D:\learn\signleton-class\node_modules\sequelize\lib\model.js:2424:35)
+    at async Function.create (D:\learn\signleton-class\node_modules\sequelize\lib\model.js:1336:12)
+    at async sakilaController.createFilm (D:\learn\signleton-class\controller\sakila.controller.js:34:18)
+    at async D:\learn\signleton-class\router\extention.js:27:17
+Sakila Services | 09:18:35 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Out of range value for column 'rental_rate' at row 1"}[39m
+Sakila Services | 09:19:39 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 09:19:39 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 9.9,[39m
+[32m  special_features: 'C13',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 09:19:39 12-05-2022 | [[31mERROR[39m] : [31mData truncated for column 'rating' at row 1 Data truncated for column 'rating' at row 1[39m
+Error
+    at Query.run (D:\learn\signleton-class\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\learn\signleton-class\node_modules\sequelize\lib\sequelize.js:313:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (D:\learn\signleton-class\node_modules\sequelize\lib\dialects\abstract\query-interface.js:297:21)
+    at async model.save (D:\learn\signleton-class\node_modules\sequelize\lib\model.js:2424:35)
+    at async Function.create (D:\learn\signleton-class\node_modules\sequelize\lib\model.js:1336:12)
+    at async sakilaController.createFilm (D:\learn\signleton-class\controller\sakila.controller.js:34:18)
+    at async D:\learn\signleton-class\router\extention.js:27:17
+Sakila Services | 09:19:39 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Data truncated for column 'rating' at row 1"}[39m
+Sakila Services | 09:20:34 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 09:20:34 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'C13',[39m
+[32m  special_features: 'C13',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 09:20:34 12-05-2022 | [[31mERROR[39m] : [31mData truncated for column 'rating' at row 1 Data truncated for column 'rating' at row 1[39m
+Error
+    at Query.run (D:\learn\signleton-class\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\learn\signleton-class\node_modules\sequelize\lib\sequelize.js:313:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (D:\learn\signleton-class\node_modules\sequelize\lib\dialects\abstract\query-interface.js:297:21)
+    at async model.save (D:\learn\signleton-class\node_modules\sequelize\lib\model.js:2424:35)
+    at async Function.create (D:\learn\signleton-class\node_modules\sequelize\lib\model.js:1336:12)
+    at async sakilaController.createFilm (D:\learn\signleton-class\controller\sakila.controller.js:34:18)
+    at async D:\learn\signleton-class\router\extention.js:27:17
+Sakila Services | 09:20:34 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Data truncated for column 'rating' at row 1"}[39m
+Sakila Services | 09:20:42 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 09:20:42 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'C-13',[39m
+[32m  special_features: 'C13',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 09:20:42 12-05-2022 | [[31mERROR[39m] : [31mData truncated for column 'rating' at row 1 Data truncated for column 'rating' at row 1[39m
+Error
+    at Query.run (D:\learn\signleton-class\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\learn\signleton-class\node_modules\sequelize\lib\sequelize.js:313:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (D:\learn\signleton-class\node_modules\sequelize\lib\dialects\abstract\query-interface.js:297:21)
+    at async model.save (D:\learn\signleton-class\node_modules\sequelize\lib\model.js:2424:35)
+    at async Function.create (D:\learn\signleton-class\node_modules\sequelize\lib\model.js:1336:12)
+    at async sakilaController.createFilm (D:\learn\signleton-class\controller\sakila.controller.js:34:18)
+    at async D:\learn\signleton-class\router\extention.js:27:17
+Sakila Services | 09:20:42 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Data truncated for column 'rating' at row 1"}[39m
+Sakila Services | 09:21:00 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 09:21:00 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'C13',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 09:21:00 12-05-2022 | [[31mERROR[39m] : [31mData truncated for column 'special_features' at row 1 Data truncated for column 'special_features' at row 1[39m
+Error
+    at Query.run (D:\learn\signleton-class\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\learn\signleton-class\node_modules\sequelize\lib\sequelize.js:313:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (D:\learn\signleton-class\node_modules\sequelize\lib\dialects\abstract\query-interface.js:297:21)
+    at async model.save (D:\learn\signleton-class\node_modules\sequelize\lib\model.js:2424:35)
+    at async Function.create (D:\learn\signleton-class\node_modules\sequelize\lib\model.js:1336:12)
+    at async sakilaController.createFilm (D:\learn\signleton-class\controller\sakila.controller.js:34:18)
+    at async D:\learn\signleton-class\router\extention.js:27:17
+Sakila Services | 09:21:00 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Data truncated for column 'special_features' at row 1"}[39m
+Sakila Services | 09:21:23 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 09:21:23 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 09:21:24 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"last_update":{"val":"CURRENT_TIMESTAMP"},"film_id":1001,"title":"Chú bé đần","description":"Câu chuyện về chú bé đần","length":"120","rental_rate":10,"rental_duration":30,"replacement_cost":999,"rating":"PG-13","special_features":"Trailers","language_id":1}[39m
+Sakila Services | 09:27:43 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 09:27:43 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 09:27:43 12-05-2022 | [[31mERROR[39m] : [31mMaximum call stack size exceeded Maximum call stack size exceeded[39m
+RangeError: Maximum call stack size exceeded
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+Sakila Services | 09:27:43 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Maximum call stack size exceeded"}[39m
+Sakila Services | 09:28:49 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 09:28:49 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 09:28:49 12-05-2022 | [[31mERROR[39m] : [31mMaximum call stack size exceeded Maximum call stack size exceeded[39m
+RangeError: Maximum call stack size exceeded
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+Sakila Services | 09:28:49 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Maximum call stack size exceeded"}[39m
+Sakila Services | 09:34:04 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 09:34:04 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 09:34:04 12-05-2022 | [[31mERROR[39m] : [31mMaximum call stack size exceeded Maximum call stack size exceeded[39m
+RangeError: Maximum call stack size exceeded
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+Sakila Services | 09:34:04 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Maximum call stack size exceeded"}[39m
+Sakila Services | 09:35:13 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 09:35:13 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 09:35:13 12-05-2022 | [[31mERROR[39m] : [31mMaximum call stack size exceeded Maximum call stack size exceeded[39m
+RangeError: Maximum call stack size exceeded
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+Sakila Services | 09:35:13 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Maximum call stack size exceeded"}[39m
+Sakila Services | 09:36:08 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 09:36:08 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 09:36:08 12-05-2022 | [[31mERROR[39m] : [31mMaximum call stack size exceeded Maximum call stack size exceeded[39m
+RangeError: Maximum call stack size exceeded
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+Sakila Services | 09:36:08 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Maximum call stack size exceeded"}[39m
+Sakila Services | 09:37:51 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 09:37:51 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 09:37:51 12-05-2022 | [[31mERROR[39m] : [31mMaximum call stack size exceeded Maximum call stack size exceeded[39m
+RangeError: Maximum call stack size exceeded
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+Sakila Services | 09:37:51 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Maximum call stack size exceeded"}[39m
+Sakila Services | 09:41:41 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 09:41:41 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 09:41:41 12-05-2022 | [[31mERROR[39m] : [31mMaximum call stack size exceeded Maximum call stack size exceeded[39m
+RangeError: Maximum call stack size exceeded
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+Sakila Services | 09:41:41 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Maximum call stack size exceeded"}[39m
+Sakila Services | 09:42:31 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 09:42:31 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 09:42:31 12-05-2022 | [[31mERROR[39m] : [31mMaximum call stack size exceeded Maximum call stack size exceeded[39m
+RangeError: Maximum call stack size exceeded
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+Sakila Services | 09:42:31 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Maximum call stack size exceeded"}[39m
+Sakila Services | 09:44:24 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 09:44:24 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 09:44:24 12-05-2022 | [[31mERROR[39m] : [31mMaximum call stack size exceeded Maximum call stack size exceeded[39m
+RangeError: Maximum call stack size exceeded
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+Sakila Services | 09:44:24 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Maximum call stack size exceeded"}[39m
+Sakila Services | 09:51:43 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 09:51:43 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 09:51:43 12-05-2022 | [[31mERROR[39m] : [31mMaximum call stack size exceeded Maximum call stack size exceeded[39m
+RangeError: Maximum call stack size exceeded
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:51)
+Sakila Services | 09:51:43 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Maximum call stack size exceeded"}[39m
+Sakila Services | 09:54:32 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 09:54:32 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 09:56:10 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 09:56:10 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 09:57:06 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 09:57:06 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 09:57:46 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 09:57:46 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 09:59:52 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 09:59:52 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 10:01:47 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 10:01:47 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 10:05:48 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 10:05:48 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 10:15:31 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 10:15:31 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 10:15:31 12-05-2022 | [[31mERROR[39m] : [31mMaximum call stack size exceeded Maximum call stack size exceeded[39m
+RangeError: Maximum call stack size exceeded
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:51)
+Sakila Services | 10:15:31 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Maximum call stack size exceeded"}[39m
+Sakila Services | 10:16:39 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 10:16:39 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 10:16:39 12-05-2022 | [[31mERROR[39m] : [31mMaximum call stack size exceeded Maximum call stack size exceeded[39m
+RangeError: Maximum call stack size exceeded
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:51)
+Sakila Services | 10:16:39 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Maximum call stack size exceeded"}[39m
+Sakila Services | 10:17:27 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 10:17:27 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 10:17:27 12-05-2022 | [[31mERROR[39m] : [31mMaximum call stack size exceeded Maximum call stack size exceeded[39m
+RangeError: Maximum call stack size exceeded
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+Sakila Services | 10:17:27 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Maximum call stack size exceeded"}[39m
+Sakila Services | 10:19:42 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 10:19:42 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 10:19:42 12-05-2022 | [[31mERROR[39m] : [31mMaximum call stack size exceeded Maximum call stack size exceeded[39m
+RangeError: Maximum call stack size exceeded
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:19:57)
+Sakila Services | 10:19:42 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Maximum call stack size exceeded"}[39m
+Sakila Services | 10:21:19 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 10:21:19 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 10:21:19 12-05-2022 | [[31mERROR[39m] : [31mMaximum call stack size exceeded Maximum call stack size exceeded[39m
+RangeError: Maximum call stack size exceeded
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:37)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:37)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:37)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:37)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:37)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:37)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:37)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:37)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:37)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:37)
+Sakila Services | 10:21:19 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Maximum call stack size exceeded"}[39m
+Sakila Services | 10:22:28 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 10:22:28 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 10:22:53 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 10:22:53 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 10:23:39 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 10:23:39 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 10:29:10 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 10:29:10 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 10:29:10 12-05-2022 | [[31mERROR[39m] : [31mMaximum call stack size exceeded Maximum call stack size exceeded[39m
+RangeError: Maximum call stack size exceeded
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:48)
+Sakila Services | 10:29:10 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Maximum call stack size exceeded"}[39m
+Sakila Services | 10:30:03 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 10:30:03 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 10:30:03 12-05-2022 | [[31mERROR[39m] : [31mMaximum call stack size exceeded Maximum call stack size exceeded[39m
+RangeError: Maximum call stack size exceeded
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:48)
+Sakila Services | 10:30:03 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Maximum call stack size exceeded"}[39m
+Sakila Services | 10:31:05 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 10:31:05 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 10:31:05 12-05-2022 | [[31mERROR[39m] : [31mMaximum call stack size exceeded Maximum call stack size exceeded[39m
+RangeError: Maximum call stack size exceeded
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:20:48)
+Sakila Services | 10:31:05 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Maximum call stack size exceeded"}[39m
+Sakila Services | 10:36:01 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 10:36:01 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 10:36:01 12-05-2022 | [[31mERROR[39m] : [31mMaximum call stack size exceeded Maximum call stack size exceeded[39m
+RangeError: Maximum call stack size exceeded
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:21:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:21:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:21:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:21:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:21:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:21:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:21:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:21:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:21:48)
+    at Function.<computed> (D:\learn\signleton-class\database\redispool.js:21:48)
+Sakila Services | 10:36:01 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Maximum call stack size exceeded"}[39m
+Sakila Services | 10:36:34 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 10:36:34 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 10:39:05 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 10:39:05 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 10:40:12 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 10:40:12 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 10:40:30 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 10:40:30 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 10:47:29 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 10:47:29 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 10:51:46 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 10:51:46 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 10:53:03 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 10:53:03 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 10:53:03 12-05-2022 | [[31mERROR[39m] : [31mredispool.hmset is not a function redispool.hmset is not a function[39m
+TypeError: redispool.hmset is not a function
+    at sakilaController.createFilm (D:\learn\signleton-class\controller\sakila.controller.js:38:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\learn\signleton-class\router\extention.js:27:17
+Sakila Services | 10:53:03 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"redispool.hmset is not a function"}[39m
+Sakila Services | 10:53:38 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 10:53:38 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 10:53:38 12-05-2022 | [[31mERROR[39m] : TypeError: redispool.hmset is not a function
+    at sakilaController.createFilm (D:\learn\signleton-class\controller\sakila.controller.js:38:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\learn\signleton-class\router\extention.js:27:17
+Sakila Services | 10:53:38 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"redispool.hmset is not a function"}[39m
+Sakila Services | 10:54:29 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 10:54:29 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 10:54:29 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"last_update":{"val":"CURRENT_TIMESTAMP"},"film_id":1039,"title":"Chú bé đần","description":"Câu chuyện về chú bé đần","release":"2022","length":"120","rental_rate":10,"rental_duration":30,"replacement_cost":999,"rating":"PG-13","special_features":"Trailers","language_id":1}[39m
+Sakila Services | 10:54:58 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 10:54:58 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 10:54:58 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"last_update":{"val":"CURRENT_TIMESTAMP"},"film_id":1040,"title":"Chú bé đần","description":"Câu chuyện về chú bé đần","release":"2022","length":"120","rental_rate":10,"rental_duration":30,"replacement_cost":999,"rating":"PG-13","special_features":"Trailers","language_id":1}[39m
+Sakila Services | 10:55:39 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 10:55:39 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 10:55:39 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"last_update":{"val":"CURRENT_TIMESTAMP"},"film_id":1041,"title":"Chú bé đần","description":"Câu chuyện về chú bé đần","release":"2022","length":"120","rental_rate":10,"rental_duration":30,"replacement_cost":999,"rating":"PG-13","special_features":"Trailers","language_id":1}[39m
+Sakila Services | 10:56:11 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 10:56:11 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 10:56:11 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"last_update":{"val":"CURRENT_TIMESTAMP"},"film_id":1042,"title":"Chú bé đần","description":"Câu chuyện về chú bé đần","release":"2022","length":"120","rental_rate":10,"rental_duration":30,"replacement_cost":999,"rating":"PG-13","special_features":"Trailers","language_id":1}[39m
+Sakila Services | 10:57:11 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 10:57:11 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 10:57:11 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"last_update":{"val":"CURRENT_TIMESTAMP"},"film_id":1043,"title":"Chú bé đần","description":"Câu chuyện về chú bé đần","release":"2022","length":"120","rental_rate":10,"rental_duration":30,"replacement_cost":999,"rating":"PG-13","special_features":"Trailers","language_id":1}[39m
+Sakila Services | 10:57:43 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 10:57:43 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 10:58:44 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 10:58:44 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 14:08:02 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 14:08:02 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 14:08:02 12-05-2022 | [[31mERROR[39m] : ReplyError: ERR wrong number of arguments for HMSET
+    at parseError (D:\learn\signleton-class\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (D:\learn\signleton-class\node_modules\redis-parser\lib\parser.js:302:14)
+Sakila Services | 14:08:02 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"ERR wrong number of arguments for HMSET"}[39m
+Sakila Services | 14:09:28 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 14:09:28 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 14:09:28 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"last_update":{"val":"CURRENT_TIMESTAMP"},"film_id":1047,"title":"Chú bé đần","description":"Câu chuyện về chú bé đần","release":"2022","length":"120","rental_rate":10,"rental_duration":30,"replacement_cost":999,"rating":"PG-13","special_features":"Trailers","language_id":1}[39m
+Sakila Services | 14:09:47 12-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/1047?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 14:09:47 12-05-2022 | [[31mERROR[39m] : ReplyError: ERR wrong number of arguments for 'hmget' command
+    at parseError (D:\learn\signleton-class\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (D:\learn\signleton-class\node_modules\redis-parser\lib\parser.js:302:14)
+Sakila Services | 14:09:47 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"ERR wrong number of arguments for 'hmget' command"}[39m
+Sakila Services | 14:10:49 12-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/1047?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 14:10:49 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  dataValues: '[object Object]',[39m
+[32m  _previousDataValues: '[object Object]',[39m
+[32m  uniqno: '1',[39m
+[32m  _changed: '[object Set]',[39m
+[32m  _options: '[object Object]',[39m
+[32m  isNewRecord: 'false'[39m
+[32m}[39m
+Sakila Services | 14:10:49 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"dataValues":"[object Object]","_previousDataValues":"[object Object]","uniqno":"1","_changed":"[object Set]","_options":"[object Object]","isNewRecord":"false"}[39m
+Sakila Services | 14:11:58 12-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/1047?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 14:11:58 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  dataValues: '[object Object]',[39m
+[32m  _previousDataValues: '[object Object]',[39m
+[32m  uniqno: '1',[39m
+[32m  _changed: '[object Set]',[39m
+[32m  _options: '[object Object]',[39m
+[32m  isNewRecord: 'false'[39m
+[32m}[39m
+Sakila Services | 14:11:58 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"dataValues":"[object Object]","_previousDataValues":"[object Object]","uniqno":"1","_changed":"[object Set]","_options":"[object Object]","isNewRecord":"false"}[39m
+Sakila Services | 14:13:08 12-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/1047?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 14:13:08 12-05-2022 | [[31mERROR[39m] : ReplyError: WRONGTYPE Operation against a key holding the wrong kind of value
+    at parseError (D:\learn\signleton-class\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (D:\learn\signleton-class\node_modules\redis-parser\lib\parser.js:302:14)
+Sakila Services | 14:13:08 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"WRONGTYPE Operation against a key holding the wrong kind of value"}[39m
+Sakila Services | 14:13:30 12-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/1047?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 14:13:30 12-05-2022 | [[31mERROR[39m] : ReplyError: WRONGTYPE Operation against a key holding the wrong kind of value
+    at parseError (D:\learn\signleton-class\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (D:\learn\signleton-class\node_modules\redis-parser\lib\parser.js:302:14)
+Sakila Services | 14:13:30 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"WRONGTYPE Operation against a key holding the wrong kind of value"}[39m
+Sakila Services | 14:23:36 12-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/1047?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 14:23:36 12-05-2022 | [[31mERROR[39m] : Error: The client is closed
+    at Commander._RedisClient_sendCommand (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\index.js:404:31)
+    at Commander.commandsExecutor (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\index.js:167:154)
+    at Commander.BaseClass.<computed> [as get] (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at Function.<computed> [as get] (D:\learn\signleton-class\database\redispool.js:25:57)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async sakilaController.getFilm (D:\learn\signleton-class\controller\sakila.controller.js:11:29)
+    at async D:\learn\signleton-class\router\extention.js:28:17
+Sakila Services | 14:23:36 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"The client is closed"}[39m
+Sakila Services | 14:24:01 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 14:24:01 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 14:24:01 12-05-2022 | [[31mERROR[39m] : Error: The client is closed
+    at Commander._RedisClient_sendCommand (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\index.js:404:31)
+    at Commander.commandsExecutor (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\index.js:167:154)
+    at Commander.BaseClass.<computed> [as set] (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at Function.<computed> [as set] (D:\learn\signleton-class\database\redispool.js:25:57)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async sakilaController.createFilm (D:\learn\signleton-class\controller\sakila.controller.js:36:5)
+    at async D:\learn\signleton-class\router\extention.js:28:17
+Sakila Services | 14:24:01 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"The client is closed"}[39m
+Sakila Services | 14:35:58 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 14:35:58 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 14:35:58 12-05-2022 | [[31mERROR[39m] : Error: The client is closed
+    at Commander._RedisClient_sendCommand (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\index.js:404:31)
+    at Commander.commandsExecutor (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\index.js:167:154)
+    at Commander.BaseClass.<computed> [as set] (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at Function.<computed> [as set] (D:\learn\signleton-class\database\redispool.js:31:57)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async sakilaController.createFilm (D:\learn\signleton-class\controller\sakila.controller.js:36:5)
+    at async D:\learn\signleton-class\router\extention.js:28:17
+Sakila Services | 14:35:58 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"The client is closed"}[39m
+Sakila Services | 14:38:39 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 14:38:39 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 14:38:39 12-05-2022 | [[31mERROR[39m] : TypeError: Invalid argument type
+    at encodeCommand (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\RESP2\encoder.js:20:19)
+    at RedisCommandsQueue.getCommandToSend (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\commands-queue.js:187:45)
+    at Commander._RedisClient_tick (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\index.js:429:76)
+    at Commander._RedisClient_sendCommand (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\index.js:413:82)
+    at Commander.commandsExecutor (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\index.js:167:154)
+    at Commander.BaseClass.<computed> [as set] (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at Function.<computed> [as set] (D:\learn\signleton-class\database\redispool.js:30:57)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async sakilaController.createFilm (D:\learn\signleton-class\controller\sakila.controller.js:36:5)
+    at async D:\learn\signleton-class\router\extention.js:28:17
+Sakila Services | 14:38:39 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Invalid argument type"}[39m
+Sakila Services | 14:41:09 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 14:41:09 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 14:41:09 12-05-2022 | [[31mERROR[39m] : TypeError: Invalid argument type
+    at encodeCommand (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\RESP2\encoder.js:20:19)
+    at RedisCommandsQueue.getCommandToSend (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\commands-queue.js:187:45)
+    at Commander._RedisClient_tick (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\index.js:429:76)
+    at Commander._RedisClient_sendCommand (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\index.js:413:82)
+    at Commander.commandsExecutor (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\index.js:167:154)
+    at Commander.BaseClass.<computed> [as SET] (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at Function.<computed> [as SET] (D:\learn\signleton-class\database\redispool.js:30:57)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async sakilaController.createFilm (D:\learn\signleton-class\controller\sakila.controller.js:36:5)
+    at async D:\learn\signleton-class\router\extention.js:28:17
+Sakila Services | 14:41:09 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Invalid argument type"}[39m
+Sakila Services | 14:41:47 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 14:41:47 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 14:41:47 12-05-2022 | [[31mERROR[39m] : TypeError: Invalid argument type
+    at encodeCommand (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\RESP2\encoder.js:20:19)
+    at RedisCommandsQueue.getCommandToSend (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\commands-queue.js:187:45)
+    at Commander._RedisClient_tick (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\index.js:429:76)
+    at Commander._RedisClient_sendCommand (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\index.js:413:82)
+    at Commander.commandsExecutor (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\index.js:167:154)
+    at Commander.BaseClass.<computed> [as SET] (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at Function.<computed> [as SET] (D:\learn\signleton-class\database\redispool.js:30:57)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async sakilaController.createFilm (D:\learn\signleton-class\controller\sakila.controller.js:36:5)
+    at async D:\learn\signleton-class\router\extention.js:28:17
+Sakila Services | 14:41:47 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Invalid argument type"}[39m
+Sakila Services | 14:42:05 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 14:42:05 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 14:42:05 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"last_update":{"val":"CURRENT_TIMESTAMP"},"film_id":1053,"title":"Chú bé đần","description":"Câu chuyện về chú bé đần","release":"2022","length":"120","rental_rate":10,"rental_duration":30,"replacement_cost":999,"rating":"PG-13","special_features":"Trailers","language_id":1}[39m
+Sakila Services | 14:42:22 12-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/1047?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 14:42:22 12-05-2022 | [[31mERROR[39m] : [31mWRONGTYPE Operation against a key holding the wrong kind of value WRONGTYPE Operation against a key holding the wrong kind of value[39m
+Sakila Services | 14:42:22 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"WRONGTYPE Operation against a key holding the wrong kind of value"}[39m
+Sakila Services | 14:42:54 12-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/1047?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 14:42:54 12-05-2022 | [[31mERROR[39m] : [31mWRONGTYPE Operation against a key holding the wrong kind of value WRONGTYPE Operation against a key holding the wrong kind of value[39m
+Sakila Services | 14:42:54 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"WRONGTYPE Operation against a key holding the wrong kind of value"}[39m
+Sakila Services | 14:45:06 12-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/1047?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 14:45:06 12-05-2022 | [[31mERROR[39m] : TypeError: Cannot read properties of undefined (reading 'log')
+    at sakilaController.getFilm (D:\learn\signleton-class\controller\sakila.controller.js:12:12)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\learn\signleton-class\router\extention.js:28:17
+Sakila Services | 14:45:06 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Cannot read properties of undefined (reading 'log')"}[39m
+Sakila Services | 14:45:51 12-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/1047?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 14:45:51 12-05-2022 | [[31mERROR[39m] : TypeError: Cannot read properties of undefined (reading 'log')
+    at sakilaController.getFilm (D:\learn\signleton-class\controller\sakila.controller.js:12:12)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\learn\signleton-class\router\extention.js:28:17
+Sakila Services | 14:45:51 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Cannot read properties of undefined (reading 'log')"}[39m
+Sakila Services | 14:46:08 12-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/1047?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 14:46:08 12-05-2022 | [[31mERROR[39m] : TypeError: Cannot read properties of undefined (reading 'log')
+    at sakilaController.getFilm (D:\learn\signleton-class\controller\sakila.controller.js:12:12)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\learn\signleton-class\router\extention.js:28:17
+Sakila Services | 14:46:08 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Cannot read properties of undefined (reading 'log')"}[39m
+Sakila Services | 14:46:42 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 14:46:42 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 14:46:42 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"last_update":{"val":"CURRENT_TIMESTAMP"},"film_id":1054,"title":"Chú bé đần","description":"Câu chuyện về chú bé đần","release":"2022","length":"120","rental_rate":10,"rental_duration":30,"replacement_cost":999,"rating":"PG-13","special_features":"Trailers","language_id":1}[39m
+Sakila Services | 15:10:30 12-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/1047?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 15:10:30 12-05-2022 | [[31mERROR[39m] : TypeError: Cannot read properties of undefined (reading 'log')
+    at sakilaController.getFilm (D:\learn\signleton-class\controller\sakila.controller.js:12:12)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\learn\signleton-class\router\extention.js:28:17
+Sakila Services | 15:10:30 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Cannot read properties of undefined (reading 'log')"}[39m
+Sakila Services | 15:11:24 12-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/1047?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 15:11:24 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  last_update: { val: 'CURRENT_TIMESTAMP' },[39m
+[32m  film_id: 1054,[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 15:11:24 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"last_update":{"val":"CURRENT_TIMESTAMP"},"film_id":1054,"title":"Chú bé đần","description":"Câu chuyện về chú bé đần","release":"2022","length":"120","rental_rate":10,"rental_duration":30,"replacement_cost":999,"rating":"PG-13","special_features":"Trailers","language_id":1}[39m
+Sakila Services | 15:11:35 12-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/1047?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 15:11:35 12-05-2022 | [[32mDEBUG[39m] : [32mnull[39m
+Sakila Services | 15:11:35 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"film not exist","debug_msg":null}[39m
+Sakila Services | 15:13:30 12-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/1047?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 15:13:30 12-05-2022 | [[31mERROR[39m] : [31mWRONGTYPE Operation against a key holding the wrong kind of value WRONGTYPE Operation against a key holding the wrong kind of value[39m
+Sakila Services | 15:13:30 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"WRONGTYPE Operation against a key holding the wrong kind of value"}[39m
+Sakila Services | 15:14:03 12-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/1047?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 15:14:03 12-05-2022 | [[31mERROR[39m] : [31mWRONGTYPE Operation against a key holding the wrong kind of value WRONGTYPE Operation against a key holding the wrong kind of value[39m
+Sakila Services | 15:14:03 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"WRONGTYPE Operation against a key holding the wrong kind of value"}[39m
+Sakila Services | 15:17:19 12-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/1047?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 15:17:19 12-05-2022 | [[31mERROR[39m] : [31mWRONGTYPE Operation against a key holding the wrong kind of value WRONGTYPE Operation against a key holding the wrong kind of value[39m
+Sakila Services | 15:17:19 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"WRONGTYPE Operation against a key holding the wrong kind of value"}[39m
+Sakila Services | 15:17:23 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 15:17:23 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 15:17:23 12-05-2022 | [[31mERROR[39m] : TypeError: Invalid argument type
+    at encodeCommand (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\RESP2\encoder.js:20:19)
+    at RedisCommandsQueue.getCommandToSend (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\commands-queue.js:187:45)
+    at Commander._RedisClient_tick (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\index.js:429:76)
+    at Commander._RedisClient_sendCommand (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\index.js:413:82)
+    at Commander.commandsExecutor (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\index.js:167:154)
+    at Commander.BaseClass.<computed> [as SET] (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at Function.<computed> [as SET] (D:\learn\signleton-class\database\redispool.js:31:57)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async sakilaController.createFilm (D:\learn\signleton-class\controller\sakila.controller.js:37:5)
+    at async D:\learn\signleton-class\router\extention.js:28:17
+Sakila Services | 15:17:23 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Invalid argument type"}[39m
+Sakila Services | 15:18:40 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 15:18:40 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 15:18:40 12-05-2022 | [[31mERROR[39m] : TypeError: Invalid argument type
+    at encodeCommand (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\RESP2\encoder.js:20:19)
+    at RedisCommandsQueue.getCommandToSend (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\commands-queue.js:187:45)
+    at Commander._RedisClient_tick (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\index.js:429:76)
+    at Commander._RedisClient_sendCommand (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\index.js:413:82)
+    at Commander.commandsExecutor (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\index.js:167:154)
+    at Commander.BaseClass.<computed> [as set] (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at Function.<computed> [as set] (D:\learn\signleton-class\database\redispool.js:31:57)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async sakilaController.createFilm (D:\learn\signleton-class\controller\sakila.controller.js:37:5)
+    at async D:\learn\signleton-class\router\extention.js:28:17
+Sakila Services | 15:18:40 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Invalid argument type"}[39m
+Sakila Services | 15:18:57 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 15:18:57 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 15:18:57 12-05-2022 | [[31mERROR[39m] : TypeError: Invalid argument type
+    at encodeCommand (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\RESP2\encoder.js:20:19)
+    at RedisCommandsQueue.getCommandToSend (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\commands-queue.js:187:45)
+    at Commander._RedisClient_tick (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\index.js:429:76)
+    at Commander._RedisClient_sendCommand (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\index.js:413:82)
+    at Commander.commandsExecutor (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\index.js:167:154)
+    at Commander.BaseClass.<computed> [as set] (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at Function.<computed> [as set] (D:\learn\signleton-class\database\redispool.js:31:57)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async sakilaController.createFilm (D:\learn\signleton-class\controller\sakila.controller.js:37:5)
+    at async D:\learn\signleton-class\router\extention.js:28:17
+Sakila Services | 15:18:57 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Invalid argument type"}[39m
+Sakila Services | 15:19:24 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 15:19:24 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 15:19:24 12-05-2022 | [[31mERROR[39m] : TypeError: Invalid argument type
+    at encodeCommand (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\RESP2\encoder.js:20:19)
+    at RedisCommandsQueue.getCommandToSend (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\commands-queue.js:187:45)
+    at Commander._RedisClient_tick (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\index.js:429:76)
+    at Commander._RedisClient_sendCommand (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\index.js:413:82)
+    at Commander.commandsExecutor (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\index.js:167:154)
+    at Commander.BaseClass.<computed> [as set] (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at Function.<computed> [as set] (D:\learn\signleton-class\database\redispool.js:31:57)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async sakilaController.createFilm (D:\learn\signleton-class\controller\sakila.controller.js:37:5)
+    at async D:\learn\signleton-class\router\extention.js:28:17
+Sakila Services | 15:19:24 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Invalid argument type"}[39m
+Sakila Services | 15:19:50 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 15:19:50 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 15:19:50 12-05-2022 | [[31mERROR[39m] : [31mMISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error. MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.[39m
+Sakila Services | 15:19:50 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error."}[39m
+Sakila Services | 15:20:05 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 15:20:05 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 15:20:05 12-05-2022 | [[31mERROR[39m] : [31mMISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error. MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error.[39m
+Sakila Services | 15:20:05 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error."}[39m
+Sakila Services | 15:44:11 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 15:44:11 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 15:44:11 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"last_update":{"val":"CURRENT_TIMESTAMP"},"film_id":1061,"title":"Chú bé đần","description":"Câu chuyện về chú bé đần","release":"2022","length":"120","rental_rate":10,"rental_duration":30,"replacement_cost":999,"rating":"PG-13","special_features":"Trailers","language_id":1}[39m
+Sakila Services | 15:44:19 12-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/1047?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 15:44:19 12-05-2022 | [[32mDEBUG[39m] : [32mnull[39m
+Sakila Services | 15:44:19 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"film not exist","debug_msg":null}[39m
+Sakila Services | 15:44:48 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 15:44:48 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 15:44:48 12-05-2022 | [[31mERROR[39m] : TypeError: Invalid argument type
+    at encodeCommand (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\RESP2\encoder.js:20:19)
+    at RedisCommandsQueue.getCommandToSend (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\commands-queue.js:187:45)
+    at Commander._RedisClient_tick (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\index.js:429:76)
+    at Commander._RedisClient_sendCommand (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\index.js:413:82)
+    at Commander.commandsExecutor (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\client\index.js:167:154)
+    at Commander.BaseClass.<computed> [as set] (D:\learn\signleton-class\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at Function.<computed> [as set] (D:\learn\signleton-class\database\redispool.js:31:57)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async sakilaController.createFilm (D:\learn\signleton-class\controller\sakila.controller.js:37:5)
+    at async D:\learn\signleton-class\router\extention.js:28:17
+Sakila Services | 15:44:48 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"Invalid argument type"}[39m
+Sakila Services | 15:45:06 12-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/1047?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 15:45:06 12-05-2022 | [[32mDEBUG[39m] : [32mnull[39m
+Sakila Services | 15:45:06 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"film not exist","debug_msg":null}[39m
+Sakila Services | 15:45:10 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 15:45:10 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 15:45:10 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"last_update":{"val":"CURRENT_TIMESTAMP"},"film_id":1063,"title":"Chú bé đần","description":"Câu chuyện về chú bé đần","release":"2022","length":"120","rental_rate":10,"rental_duration":30,"replacement_cost":999,"rating":"PG-13","special_features":"Trailers","language_id":1}[39m
+Sakila Services | 15:45:31 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 15:45:31 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 15:45:31 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"last_update":{"val":"CURRENT_TIMESTAMP"},"film_id":1064,"title":"Chú bé đần","description":"Câu chuyện về chú bé đần","release":"2022","length":"120","rental_rate":10,"rental_duration":30,"replacement_cost":999,"rating":"PG-13","special_features":"Trailers","language_id":1}[39m
+Sakila Services | 15:45:49 12-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/1047?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 15:45:49 12-05-2022 | [[32mDEBUG[39m] : [32mnull[39m
+Sakila Services | 15:45:49 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"film not exist","debug_msg":null}[39m
+Sakila Services | 15:45:59 12-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/1047?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 15:45:59 12-05-2022 | [[32mDEBUG[39m] : [32mnull[39m
+Sakila Services | 15:45:59 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"film not exist","debug_msg":null}[39m
+Sakila Services | 15:46:13 12-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/1047?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 15:46:13 12-05-2022 | [[32mDEBUG[39m] : [32mnull[39m
+Sakila Services | 15:46:13 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"film not exist","debug_msg":null}[39m
+Sakila Services | 15:48:51 12-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/1047?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 15:48:51 12-05-2022 | [[32mDEBUG[39m] : [32mnull[39m
+Sakila Services | 15:48:51 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"film not exist","debug_msg":null}[39m
+Sakila Services | 15:49:16 12-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/1064?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 15:49:16 12-05-2022 | [[32mDEBUG[39m] : [32mJSON.stringify(film)[39m
+Sakila Services | 15:49:16 12-05-2022 | [[36mINFO[39m] : [36mRETURN: "JSON.stringify(film)"[39m
+Sakila Services | 15:49:37 12-05-2022 | [[36mINFO[39m] : [36mPOST /api/sakila/film/create-new?token=1234[39m
+Sakila Services | 15:49:37 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 15:49:37 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"last_update":{"val":"CURRENT_TIMESTAMP"},"film_id":1065,"title":"Chú bé đần","description":"Câu chuyện về chú bé đần","release":"2022","length":"120","rental_rate":10,"rental_duration":30,"replacement_cost":999,"rating":"PG-13","special_features":"Trailers","language_id":1}[39m
+Sakila Services | 15:49:47 12-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/1065?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 15:49:47 12-05-2022 | [[32mDEBUG[39m] : [32m{"last_update":{"val":"CURRENT_TIMESTAMP"},"film_id":1065,"title":"Chú bé đần","description":"Câu chuyện về chú bé đần","release":"2022","length":"120","rental_rate":10,"rental_duration":30,"replacement_cost":999,"rating":"PG-13","special_features":"Trailers","language_id":1}[39m
+Sakila Services | 15:49:47 12-05-2022 | [[36mINFO[39m] : [36mRETURN: "{\"last_update\":{\"val\":\"CURRENT_TIMESTAMP\"},\"film_id\":1065,\"title\":\"Chú bé đần\",\"description\":\"Câu chuyện về chú bé đần\",\"release\":\"2022\",\"length\":\"120\",\"rental_rate\":10,\"rental_duration\":30,\"replacement_cost\":999,\"rating\":\"PG-13\",\"special_features\":\"Trailers\",\"language_id\":1}"[39m
+Sakila Services | 15:50:12 12-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/1065?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 15:50:12 12-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  last_update: { val: 'CURRENT_TIMESTAMP' },[39m
+[32m  film_id: 1065,[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release: '2022',[39m
+[32m  length: '120',[39m
+[32m  rental_rate: 10,[39m
+[32m  rental_duration: 30,[39m
+[32m  replacement_cost: 999,[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  language_id: 1[39m
+[32m}[39m
+Sakila Services | 15:50:12 12-05-2022 | [[36mINFO[39m] : [36mRETURN: {"last_update":{"val":"CURRENT_TIMESTAMP"},"film_id":1065,"title":"Chú bé đần","description":"Câu chuyện về chú bé đần","release":"2022","length":"120","rental_rate":10,"rental_duration":30,"replacement_cost":999,"rating":"PG-13","special_features":"Trailers","language_id":1}[39m

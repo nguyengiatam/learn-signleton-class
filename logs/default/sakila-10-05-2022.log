@@ -1,0 +1,409 @@
+Sakila Services | 07:53:02 10-05-2022 | [36MINFO[39M : film not exist
+Sakila Services | 07:56:15 10-05-2022 | INFO : film not exist
+Sakila Services | 07:56:51 10-05-2022 | [INFO] : film not exist
+undefined
+undefined
+{
+  level: '\x1B[36minfo\x1B[39m',
+  message: 'film not exist',
+  label: 'Sakila Services',
+  timestamp: '08:05:21 10-05-2022'
+}
+undefined | 08:08:13 10-05-2022 | [[36MINFO[39M] : film not exist
+Sakila Services | 08:08:31 10-05-2022 | [[36MINFO[39M] : film not exist
+Sakila Services | 08:15:21 10-05-2022 | [[36MINFO[39M] : film not exist
+Sakila Services | 08:16:04 10-05-2022 | [[36minfo[39m] : film not exist
+Sakila Services | 08:26:57 10-05-2022 | [[36minfo[39m] : film not exist
+Sakila Services | 08:40:30 10-05-2022 | [[36minfo[39m] : film not exist
+Sakila Services | 08:43:24 10-05-2022 | [[31merror[39m] : Có lỗi xảy ra. Vui lòng thử lại sau
+Sakila Services | 08:47:01 10-05-2022 | [[36minfo[39m] : film not exist
+Sakila Services | 08:47:15 10-05-2022 | [[31merror[39m] : Có lỗi xảy ra. Vui lòng thử lại sau
+Sakila Services | 08:47:43 10-05-2022 | [[31merror[39m] : Có lỗi xảy ra. Vui lòng thử lại sau
+Sakila Services | 08:49:33 10-05-2022 | [info] : Error
+    at checkValues (D:\learn\signleton-class\controller\sakila.controller.js:18:19)
+    at sakilaController.getFilm (D:\learn\signleton-class\controller\sakila.controller.js:9:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sakila Services | 08:52:55 10-05-2022 | [info] :  Error
+    at checkValues (D:\learn\signleton-class\controller\sakila.controller.js:18:19)
+    at sakilaController.getFilm (D:\learn\signleton-class\controller\sakila.controller.js:9:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sakila Services | 08:54:11 10-05-2022 | [info] : Error
+    at checkValues (D:\learn\signleton-class\controller\sakila.controller.js:18:19)
+    at sakilaController.getFilm (D:\learn\signleton-class\controller\sakila.controller.js:9:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sakila Services | 09:00:21 10-05-2022 | [info] : Error
+    at checkValues (D:\learn\signleton-class\controller\sakila.controller.js:18:19)
+    at sakilaController.getFilm (D:\learn\signleton-class\controller\sakila.controller.js:9:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Sakila Services | 09:03:59 10-05-2022 | [[36minfo[39m] : 
+Sakila Services | 09:05:14 10-05-2022 | [[31merror[39m] : ReferenceError: a is not defined
+    at checkValues (D:\learn\signleton-class\controller\sakila.controller.js:18:17)
+    at sakilaController.getFilm (D:\learn\signleton-class\controller\sakila.controller.js:7:9)
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\learn\signleton-class\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\learn\signleton-class\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at D:\learn\signleton-class\node_modules\express\lib\router\index.js:284:15
+    at param (D:\learn\signleton-class\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\learn\signleton-class\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\learn\signleton-class\node_modules\express\lib\router\index.js:421:3)
+Sakila Services | 09:09:15 10-05-2022 | [[31merror[39m] : ReferenceError: a is not defined
+    at checkValues (D:\learn\signleton-class\controller\sakila.controller.js:18:17)
+    at sakilaController.getFilm (D:\learn\signleton-class\controller\sakila.controller.js:7:9)
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\learn\signleton-class\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\learn\signleton-class\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at D:\learn\signleton-class\node_modules\express\lib\router\index.js:284:15
+    at param (D:\learn\signleton-class\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\learn\signleton-class\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\learn\signleton-class\node_modules\express\lib\router\index.js:421:3)
+Sakila Services | 09:10:07 10-05-2022 | [[31MERROR[39M] : ReferenceError: a is not defined
+    at checkValues (D:\learn\signleton-class\controller\sakila.controller.js:18:17)
+    at sakilaController.getFilm (D:\learn\signleton-class\controller\sakila.controller.js:7:9)
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\learn\signleton-class\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\learn\signleton-class\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at D:\learn\signleton-class\node_modules\express\lib\router\index.js:284:15
+    at param (D:\learn\signleton-class\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\learn\signleton-class\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\learn\signleton-class\node_modules\express\lib\router\index.js:421:3)
+Sakila Services | 09:13:55 10-05-2022 | [[36minfo[39m] : 
+Sakila Services | 09:16:50 10-05-2022 | [[36minfo[39m] : film not exist
+Sakila Services | 09:34:08 10-05-2022 | [[36minfo[39m] : film not exist
+Sakila Services | 09:38:55 10-05-2022 | [[36minfo[39m] : {"film_id":21,"title":"AMERICAN CIRCUS","description":"A Insightful Drama of a Girl And a Astronaut who must Face a Database Administrator in A Shark Tank","release_year":2006,"language_id":1,"original_language_id":null,"rental_duration":3,"rental_rate":"4.99","length":129,"replacement_cost":"17.99","rating":"R","special_features":"Commentaries,Behind the Scenes","last_update":"2006-02-14T22:03:42.000Z"}
+Sakila Services | 09:39:26 10-05-2022 | [[36minfo[39m] : RETURN: {"film_id":21,"title":"AMERICAN CIRCUS","description":"A Insightful Drama of a Girl And a Astronaut who must Face a Database Administrator in A Shark Tank","release_year":2006,"language_id":1,"original_language_id":null,"rental_duration":3,"rental_rate":"4.99","length":129,"replacement_cost":"17.99","rating":"R","special_features":"Commentaries,Behind the Scenes","last_update":"2006-02-14T22:03:42.000Z"}
+Sakila Services | 09:43:49 10-05-2022 | [[36minfo[39m] : RETURN: {"film_id":21,"title":"AMERICAN CIRCUS","description":"A Insightful Drama of a Girl And a Astronaut who must Face a Database Administrator in A Shark Tank","release_year":2006,"language_id":1,"original_language_id":null,"rental_duration":3,"rental_rate":"4.99","length":129,"replacement_cost":"17.99","rating":"R","special_features":"Commentaries,Behind the Scenes","last_update":"2006-02-14T22:03:42.000Z"}
+Sakila Services | 09:53:59 10-05-2022 | [[36minfo[39m] : /api/v1/sakila/film/21
+Sakila Services | 09:53:59 10-05-2022 | [[36minfo[39m] : RETURN: {"film_id":21,"title":"AMERICAN CIRCUS","description":"A Insightful Drama of a Girl And a Astronaut who must Face a Database Administrator in A Shark Tank","release_year":2006,"language_id":1,"original_language_id":null,"rental_duration":3,"rental_rate":"4.99","length":129,"replacement_cost":"17.99","rating":"R","special_features":"Commentaries,Behind the Scenes","last_update":"2006-02-14T22:03:42.000Z"}
+Sakila Services | 09:54:54 10-05-2022 | [[36minfo[39m] : /api/v1/sakila/film/21
+Sakila Services | 09:54:54 10-05-2022 | [[36minfo[39m] : RETURN: {"film_id":21,"title":"AMERICAN CIRCUS","description":"A Insightful Drama of a Girl And a Astronaut who must Face a Database Administrator in A Shark Tank","release_year":2006,"language_id":1,"original_language_id":null,"rental_duration":3,"rental_rate":"4.99","length":129,"replacement_cost":"17.99","rating":"R","special_features":"Commentaries,Behind the Scenes","last_update":"2006-02-14T22:03:42.000Z"}
+Sakila Services | 09:55:46 10-05-2022 | [[36minfo[39m] : GET /api/v1/sakila/film/21
+Sakila Services | 09:55:46 10-05-2022 | [[36minfo[39m] : RETURN: {"film_id":21,"title":"AMERICAN CIRCUS","description":"A Insightful Drama of a Girl And a Astronaut who must Face a Database Administrator in A Shark Tank","release_year":2006,"language_id":1,"original_language_id":null,"rental_duration":3,"rental_rate":"4.99","length":129,"replacement_cost":"17.99","rating":"R","special_features":"Commentaries,Behind the Scenes","last_update":"2006-02-14T22:03:42.000Z"}
+Sakila Services | 09:56:27 10-05-2022 | [[36minfo[39m] : GET /api/v1/sakila/film/21?abd=123&sad=dfgdf
+Sakila Services | 09:56:27 10-05-2022 | [[36minfo[39m] : RETURN: {"film_id":21,"title":"AMERICAN CIRCUS","description":"A Insightful Drama of a Girl And a Astronaut who must Face a Database Administrator in A Shark Tank","release_year":2006,"language_id":1,"original_language_id":null,"rental_duration":3,"rental_rate":"4.99","length":129,"replacement_cost":"17.99","rating":"R","special_features":"Commentaries,Behind the Scenes","last_update":"2006-02-14T22:03:42.000Z"}
+Sakila Services | 10:56:23 10-05-2022 | [[36minfo[39m] : GET /api/v1/sakila/film/232541?abd=123&sad=dfgdf
+Sakila Services | 10:56:23 10-05-2022 | [[36minfo[39m] : film not exist
+Sakila Services | 10:59:24 10-05-2022 | [[36minfo[39m] : GET /api/v1/sakila/film/232541?abd=123&sad=dfgdf
+Sakila Services | 10:59:24 10-05-2022 | [[36minfo[39m] : RETURN: {"error_msg":"film not exist","debug_msg":""}
+Sakila Services | 10:59:42 10-05-2022 | [[36minfo[39m] : GET /api/v1/sakila/film/232541?abd=123&sad=dfgdf
+Sakila Services | 10:59:42 10-05-2022 | [[36minfo[39m] : RETURN: {"error_msg":"film not exist","debug_msg":null}
+Sakila Services | 13:36:08 10-05-2022 | [[36minfo[39m] : GET /api/v1/sakila/film/232541?abd=123&sad=dfgdf
+Sakila Services | 13:38:47 10-05-2022 | [[36minfo[39m] : GET /api/v1/sakila/film/232541?abd=123&sad=dfgdf
+Sakila Services | 13:40:00 10-05-2022 | [[36minfo[39m] : GET /api/v1/sakila/film/23
+Sakila Services | 13:40:00 10-05-2022 | [[36minfo[39m] : RETURN: {"film_id":23,"title":"ANACONDA CONFESSIONS","description":"A Lacklusture Display of a Dentist And a Dentist who must Fight a Girl in Australia","release_year":2006,"language_id":1,"original_language_id":null,"rental_duration":3,"rental_rate":"0.99","length":92,"replacement_cost":"9.99","rating":"R","special_features":"Trailers,Deleted Scenes","last_update":"2006-02-14T22:03:42.000Z"}
+Sakila Services | 13:40:07 10-05-2022 | [[36minfo[39m] : GET /api/v1/sakila/film/2357546
+Sakila Services | 13:42:22 10-05-2022 | [[36minfo[39m] : GET /api/v1/sakila/film/2357546
+Sakila Services | 13:43:08 10-05-2022 | [[36minfo[39m] : GET /api/v1/sakila/film/2357546
+Sakila Services | 13:46:44 10-05-2022 | [[36minfo[39m] : GET /api/v1/sakila/film/2357546
+Sakila Services | 13:47:31 10-05-2022 | [[36minfo[39m] : GET /api/v1/sakila/film/2357546
+Sakila Services | 13:47:31 10-05-2022 | [[36minfo[39m] : RETURN: {"error_code":1,"data":null,"error_msg":"film not exist","debug_msg":null}
+Sakila Services | 13:50:19 10-05-2022 | [[36minfo[39m] : GET /api/v1/sakila/film/2357546
+Sakila Services | 13:50:19 10-05-2022 | [[36minfo[39m] : RETURN: {"error_code":1,"data":null,"error_msg":"film not exist","debug_msg":null}
+Sakila Services | 13:52:35 10-05-2022 | [[36minfo[39m] : GET /api/v1/sakila/film/2357546
+Sakila Services | 14:04:25 10-05-2022 | [[36minfo[39m] : GET /api/v1/sakila/film/2357546
+Sakila Services | 14:05:21 10-05-2022 | [[36minfo[39m] : GET /api/v1/sakila/film/2357546
+Sakila Services | 14:05:50 10-05-2022 | [[36minfo[39m] : GET /api/v1/sakila/film/2357546
+Sakila Services | 14:06:51 10-05-2022 | [[36minfo[39m] : GET /api/v1/sakila/film/2357546
+Sakila Services | 14:06:51 10-05-2022 | [[36minfo[39m] : RETURN: {"error_code":1,"data":null,"error_msg":"film not exist","debug_msg":null}
+Sakila Services | 14:12:22 10-05-2022 | [[36minfo[39m] : GET /api/v1/sakila/film/2357546
+Sakila Services | 14:14:40 10-05-2022 | [[36minfo[39m] : GET /api/v1/sakila/film/2357546
+Sakila Services | 14:14:40 10-05-2022 | [[36minfo[39m] : RETURN: {"msgReturn":"film not exist","code":404,"level":"info"}
+Sakila Services | 14:16:46 10-05-2022 | [[36minfo[39m] : GET /api/v1/sakila/film/2357546
+Sakila Services | 14:16:46 10-05-2022 | [[36minfo[39m] : RETURN: {"error_code":1,"data":null,"error_msg":"film not exist","debug_msg":null}
+Sakila Services | 14:17:31 10-05-2022 | [[36minfo[39m] : [36mGET /api/v1/sakila/film/2357546[39m
+Sakila Services | 14:17:31 10-05-2022 | [[36minfo[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"film not exist","debug_msg":null}[39m
+Sakila Services | 14:18:43 10-05-2022 | [[36minfo[39m] : [36mGET /api/v1/sakila/film/2357546?ahihihi=1234&bdhfbs=123[39m
+Sakila Services | 14:18:43 10-05-2022 | [[36minfo[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"film not exist","debug_msg":null}[39m
+Sakila Services | 14:19:51 10-05-2022 | [[36minfo[39m] : [36mGET /api/sakila/film/2357546?ahihihi=1234&bdhfbs=123[39m
+Sakila Services | 14:19:51 10-05-2022 | [[36minfo[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"film not exist","debug_msg":null}[39m
+Sakila Services | 14:20:18 10-05-2022 | [[36minfo[39m] : [36mGET /api/sakila/film/2357546?ahihihi=1234&bdhfbs=123[39m
+Sakila Services | 14:20:18 10-05-2022 | [[36minfo[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"film not exist","debug_msg":null}[39m
+Sakila Services | 14:20:29 10-05-2022 | [[36minfo[39m] : [36mGET /api/sakila/film/23?ahihihi=1234&bdhfbs=123[39m
+Sakila Services | 14:20:29 10-05-2022 | [[31merror[39m] : TypeError: res.sendData is not a function
+    at sakilaController.getFilm (D:\learn\signleton-class\controller\sakila.controller.js:11:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\learn\signleton-class\router\extention.js:26:17
+Sakila Services | 14:20:29 10-05-2022 | [[36minfo[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"res.sendData is not a function"}[39m
+Sakila Services | 14:20:50 10-05-2022 | [[36minfo[39m] : [36mGET /api/sakila/film/23?ahihihi=1234&bdhfbs=123[39m
+Sakila Services | 14:20:50 10-05-2022 | [[36minfo[39m] : [36mRETURN: {"film_id":23,"title":"ANACONDA CONFESSIONS","description":"A Lacklusture Display of a Dentist And a Dentist who must Fight a Girl in Australia","release_year":2006,"language_id":1,"original_language_id":null,"rental_duration":3,"rental_rate":"0.99","length":92,"replacement_cost":"9.99","rating":"R","special_features":"Trailers,Deleted Scenes","last_update":"2006-02-14T22:03:42.000Z"}[39m
+Sakila Services | 14:24:10 10-05-2022 | [[36minfo[39m] : [36mGET /api/sakila/film/23?ahihihi=1234&bdhfbs=123[39m
+Sakila Services | 14:24:10 10-05-2022 | [[36minfo[39m] : [36mRETURN: {"film_id":23,"title":"ANACONDA CONFESSIONS","description":"A Lacklusture Display of a Dentist And a Dentist who must Fight a Girl in Australia","release_year":2006,"language_id":1,"original_language_id":null,"rental_duration":3,"rental_rate":"0.99","length":92,"replacement_cost":"9.99","rating":"R","special_features":"Trailers,Deleted Scenes","last_update":"2006-02-14T22:03:42.000Z"}[39m
+Sakila Services | 14:25:24 10-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/23?ahihihi=1234&bdhfbs=123[39m
+Sakila Services | 14:25:24 10-05-2022 | [[36mINFO[39m] : [36mRETURN: {"film_id":23,"title":"ANACONDA CONFESSIONS","description":"A Lacklusture Display of a Dentist And a Dentist who must Fight a Girl in Australia","release_year":2006,"language_id":1,"original_language_id":null,"rental_duration":3,"rental_rate":"0.99","length":92,"replacement_cost":"9.99","rating":"R","special_features":"Trailers,Deleted Scenes","last_update":"2006-02-14T22:03:42.000Z"}[39m
+Sakila Services | 14:26:26 10-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/23?ahihihi=1234&bdhfbs=123[39m
+Sakila Services | 14:26:26 10-05-2022 | [[36mINFO[39m] : [36mRETURN: {"film_id":23,"title":"ANACONDA CONFESSIONS","description":"A Lacklusture Display of a Dentist And a Dentist who must Fight a Girl in Australia","release_year":2006,"language_id":1,"original_language_id":null,"rental_duration":3,"rental_rate":"0.99","length":92,"replacement_cost":"9.99","rating":"R","special_features":"Trailers,Deleted Scenes","last_update":"2006-02-14T22:03:42.000Z"}[39m
+Sakila Services | 14:33:10 10-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/23?ahihihi=1234&bdhfbs=123[39m
+Sakila Services | 14:33:10 10-05-2022 | [[31mERROR[39m] : ReferenceError: writeLog is not defined
+    at sakilaController.getFilm (D:\learn\signleton-class\controller\sakila.controller.js:10:5)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\learn\signleton-class\router\extention.js:26:17
+Sakila Services | 14:33:10 10-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"writeLog is not defined"}[39m
+Sakila Services | 14:34:34 10-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/23?ahihihi=1234&bdhfbs=123[39m
+Sakila Services | 14:34:35 10-05-2022 | [[36mINFO[39m] : [36m{[39m
+[36m  film_id: 23,[39m
+[36m  title: 'ANACONDA CONFESSIONS',[39m
+[36m  description: 'A Lacklusture Display of a Dentist And a Dentist who must Fight a Girl in Australia',[39m
+[36m  release_year: 2006,[39m
+[36m  language_id: 1,[39m
+[36m  original_language_id: null,[39m
+[36m  rental_duration: 3,[39m
+[36m  rental_rate: '0.99',[39m
+[36m  length: 92,[39m
+[36m  replacement_cost: '9.99',[39m
+[36m  rating: 'R',[39m
+[36m  special_features: 'Trailers,Deleted Scenes',[39m
+[36m  last_update: 2006-02-14T22:03:42.000Z[39m
+[36m}[39m
+Sakila Services | 14:34:35 10-05-2022 | [[36mINFO[39m] : [36mRETURN: {"film_id":23,"title":"ANACONDA CONFESSIONS","description":"A Lacklusture Display of a Dentist And a Dentist who must Fight a Girl in Australia","release_year":2006,"language_id":1,"original_language_id":null,"rental_duration":3,"rental_rate":"0.99","length":92,"replacement_cost":"9.99","rating":"R","special_features":"Trailers,Deleted Scenes","last_update":"2006-02-14T22:03:42.000Z"}[39m
+Sakila Services | 14:36:26 10-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/23?ahihihi=1234&bdhfbs=123[39m
+Sakila Services | 14:36:26 10-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  film_id: 23,[39m
+[32m  title: 'ANACONDA CONFESSIONS',[39m
+[32m  description: 'A Lacklusture Display of a Dentist And a Dentist who must Fight a Girl in Australia',[39m
+[32m  release_year: 2006,[39m
+[32m  language_id: 1,[39m
+[32m  original_language_id: null,[39m
+[32m  rental_duration: 3,[39m
+[32m  rental_rate: '0.99',[39m
+[32m  length: 92,[39m
+[32m  replacement_cost: '9.99',[39m
+[32m  rating: 'R',[39m
+[32m  special_features: 'Trailers,Deleted Scenes',[39m
+[32m  last_update: 2006-02-14T22:03:42.000Z[39m
+[32m}[39m
+Sakila Services | 14:36:26 10-05-2022 | [[36mINFO[39m] : [36mRETURN: {"film_id":23,"title":"ANACONDA CONFESSIONS","description":"A Lacklusture Display of a Dentist And a Dentist who must Fight a Girl in Australia","release_year":2006,"language_id":1,"original_language_id":null,"rental_duration":3,"rental_rate":"0.99","length":92,"replacement_cost":"9.99","rating":"R","special_features":"Trailers,Deleted Scenes","last_update":"2006-02-14T22:03:42.000Z"}[39m
+Sakila Services | 14:38:44 10-05-2022 | [[32mDEBUG[39m] : [32mGET /api/sakila/film/23?ahihihi=1234&bdhfbs=123[39m
+Sakila Services | 14:38:44 10-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  film_id: 23,[39m
+[32m  title: 'ANACONDA CONFESSIONS',[39m
+[32m  description: 'A Lacklusture Display of a Dentist And a Dentist who must Fight a Girl in Australia',[39m
+[32m  release_year: 2006,[39m
+[32m  language_id: 1,[39m
+[32m  original_language_id: null,[39m
+[32m  rental_duration: 3,[39m
+[32m  rental_rate: '0.99',[39m
+[32m  length: 92,[39m
+[32m  replacement_cost: '9.99',[39m
+[32m  rating: 'R',[39m
+[32m  special_features: 'Trailers,Deleted Scenes',[39m
+[32m  last_update: 2006-02-14T22:03:42.000Z[39m
+[32m}[39m
+Sakila Services | 14:38:44 10-05-2022 | [[32mDEBUG[39m] : [32mRETURN: {"film_id":23,"title":"ANACONDA CONFESSIONS","description":"A Lacklusture Display of a Dentist And a Dentist who must Fight a Girl in Australia","release_year":2006,"language_id":1,"original_language_id":null,"rental_duration":3,"rental_rate":"0.99","length":92,"replacement_cost":"9.99","rating":"R","special_features":"Trailers,Deleted Scenes","last_update":"2006-02-14T22:03:42.000Z"}[39m
+Sakila Services | 14:40:17 10-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/23?ahihihi=1234&bdhfbs=123[39m
+Sakila Services | 14:40:17 10-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  film_id: 23,[39m
+[32m  title: 'ANACONDA CONFESSIONS',[39m
+[32m  description: 'A Lacklusture Display of a Dentist And a Dentist who must Fight a Girl in Australia',[39m
+[32m  release_year: 2006,[39m
+[32m  language_id: 1,[39m
+[32m  original_language_id: null,[39m
+[32m  rental_duration: 3,[39m
+[32m  rental_rate: '0.99',[39m
+[32m  length: 92,[39m
+[32m  replacement_cost: '9.99',[39m
+[32m  rating: 'R',[39m
+[32m  special_features: 'Trailers,Deleted Scenes',[39m
+[32m  last_update: 2006-02-14T22:03:42.000Z[39m
+[32m}[39m
+Sakila Services | 14:40:17 10-05-2022 | [[36mINFO[39m] : [36mRETURN: {"film_id":23,"title":"ANACONDA CONFESSIONS","description":"A Lacklusture Display of a Dentist And a Dentist who must Fight a Girl in Australia","release_year":2006,"language_id":1,"original_language_id":null,"rental_duration":3,"rental_rate":"0.99","length":92,"replacement_cost":"9.99","rating":"R","special_features":"Trailers,Deleted Scenes","last_update":"2006-02-14T22:03:42.000Z"}[39m
+Sakila Services | 14:46:18 10-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/23?ahihihi=1234&bdhfbs=123[39m
+Sakila Services | 14:46:18 10-05-2022 | [[31mERROR[39m] : undefined
+Sakila Services | 14:46:18 10-05-2022 | [[32mDEBUG[39m] : [32mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"a is not defined"}[39m
+Sakila Services | 15:02:08 10-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/23?ahihihi=1234&bdhfbs=123[39m
+Sakila Services | 15:02:08 10-05-2022 | [[31mERROR[39m] : ReferenceError: a is not defined
+    at sakilaController.getFilm (D:\learn\signleton-class\controller\sakila.controller.js:7:17)
+    at D:\learn\signleton-class\router\extention.js:26:23
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\learn\signleton-class\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\learn\signleton-class\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at D:\learn\signleton-class\node_modules\express\lib\router\index.js:284:15
+    at param (D:\learn\signleton-class\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\learn\signleton-class\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\learn\signleton-class\node_modules\express\lib\router\index.js:421:3)
+Sakila Services | 15:02:08 10-05-2022 | [[32mDEBUG[39m] : [32mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"a is not defined"}[39m
+Sakila Services | 15:02:40 10-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/23?ahihihi=1234&bdhfbs=123[39m
+Sakila Services | 15:02:40 10-05-2022 | [[31mERROR[39m] : ReferenceError: a is not defined
+    at sakilaController.getFilm (D:\learn\signleton-class\controller\sakila.controller.js:7:17)
+    at D:\learn\signleton-class\router\extention.js:26:23
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\learn\signleton-class\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\learn\signleton-class\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at D:\learn\signleton-class\node_modules\express\lib\router\index.js:284:15
+    at param (D:\learn\signleton-class\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\learn\signleton-class\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\learn\signleton-class\node_modules\express\lib\router\index.js:421:3)
+Sakila Services | 15:02:40 10-05-2022 | [[32mDEBUG[39m] : [32mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"a is not defined"}[39m
+Sakila Services | 15:03:29 10-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/23?ahihihi=1234&bdhfbs=123[39m
+Sakila Services | 15:03:29 10-05-2022 | [[31mERROR[39m] : ReferenceError: a is not defined
+    at sakilaController.getFilm (D:\learn\signleton-class\controller\sakila.controller.js:7:17)
+    at D:\learn\signleton-class\router\extention.js:26:23
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\learn\signleton-class\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\learn\signleton-class\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at D:\learn\signleton-class\node_modules\express\lib\router\index.js:284:15
+    at param (D:\learn\signleton-class\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\learn\signleton-class\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\learn\signleton-class\node_modules\express\lib\router\index.js:421:3)
+Sakila Services | 15:03:29 10-05-2022 | [[32mDEBUG[39m] : [32mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"a is not defined"}[39m
+Sakila Services | 15:05:59 10-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/23?ahihihi=1234&bdhfbs=123[39m
+Sakila Services | 15:05:59 10-05-2022 | [[31mERROR[39m] : ReferenceError: a is not defined
+    at sakilaController.getFilm (D:\learn\signleton-class\controller\sakila.controller.js:7:17)
+    at D:\learn\signleton-class\router\extention.js:26:23
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\learn\signleton-class\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\learn\signleton-class\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at D:\learn\signleton-class\node_modules\express\lib\router\index.js:284:15
+    at param (D:\learn\signleton-class\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\learn\signleton-class\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\learn\signleton-class\node_modules\express\lib\router\index.js:421:3)
+Sakila Services | 15:05:59 10-05-2022 | [[32mDEBUG[39m] : [32mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"a is not defined"}[39m
+Sakila Services | 15:09:25 10-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/23?ahihihi=1234&bdhfbs=123[39m
+Sakila Services | 15:09:25 10-05-2022 | [[31mERROR[39m] : ReferenceError: a is not defined
+    at sakilaController.getFilm (D:\learn\signleton-class\controller\sakila.controller.js:7:17)
+    at D:\learn\signleton-class\router\extention.js:26:23
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\learn\signleton-class\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\learn\signleton-class\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at D:\learn\signleton-class\node_modules\express\lib\router\index.js:284:15
+    at param (D:\learn\signleton-class\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\learn\signleton-class\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\learn\signleton-class\node_modules\express\lib\router\index.js:421:3)
+Sakila Services | 15:09:25 10-05-2022 | [[32mDEBUG[39m] : [32mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"a is not defined"}[39m
+Sakila Services | 15:10:31 10-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/23?ahihihi=1234&bdhfbs=123[39m
+Sakila Services | 15:10:31 10-05-2022 | [[31mERROR[39m] : ReferenceError: a is not defined
+    at sakilaController.getFilm (D:\learn\signleton-class\controller\sakila.controller.js:7:17)
+    at D:\learn\signleton-class\router\extention.js:26:23
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\learn\signleton-class\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\learn\signleton-class\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at D:\learn\signleton-class\node_modules\express\lib\router\index.js:284:15
+    at param (D:\learn\signleton-class\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\learn\signleton-class\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\learn\signleton-class\node_modules\express\lib\router\index.js:421:3)
+Sakila Services | 15:10:31 10-05-2022 | [[32mDEBUG[39m] : [32mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"a is not defined"}[39m
+Sakila Services | 15:19:17 10-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/23?ahihihi=1234&bdhfbs=123[39m
+Sakila Services | 15:19:17 10-05-2022 | [[31mERROR[39m] : ReferenceError: a is not defined
+    at sakilaController.getFilm (D:\learn\signleton-class\controller\sakila.controller.js:7:17)
+    at D:\learn\signleton-class\router\extention.js:26:23
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\learn\signleton-class\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\learn\signleton-class\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at D:\learn\signleton-class\node_modules\express\lib\router\index.js:284:15
+    at param (D:\learn\signleton-class\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\learn\signleton-class\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\learn\signleton-class\node_modules\express\lib\router\index.js:421:3)
+Sakila Services | 15:19:17 10-05-2022 | [[32mDEBUG[39m] : [32mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"a is not defined"}[39m
+Sakila Services | 15:19:39 10-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/23?ahihihi=1234&bdhfbs=123[39m
+Sakila Services | 15:19:39 10-05-2022 | [[31mERROR[39m] : ReferenceError: a is not defined
+    at sakilaController.getFilm (D:\learn\signleton-class\controller\sakila.controller.js:7:17)
+    at D:\learn\signleton-class\router\extention.js:26:23
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\learn\signleton-class\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\learn\signleton-class\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at D:\learn\signleton-class\node_modules\express\lib\router\index.js:284:15
+    at param (D:\learn\signleton-class\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\learn\signleton-class\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\learn\signleton-class\node_modules\express\lib\router\index.js:421:3)
+Sakila Services | 15:19:39 10-05-2022 | [[32mDEBUG[39m] : [32mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"a is not defined"}[39m
+Sakila Services | 15:32:39 10-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/23?ahihihi=1234&bdhfbs=123[39m
+Sakila Services | 15:32:39 10-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  film_id: 23,[39m
+[32m  title: 'ANACONDA CONFESSIONS',[39m
+[32m  description: 'A Lacklusture Display of a Dentist And a Dentist who must Fight a Girl in Australia',[39m
+[32m  release_year: 2006,[39m
+[32m  language_id: 1,[39m
+[32m  original_language_id: null,[39m
+[32m  rental_duration: 3,[39m
+[32m  rental_rate: '0.99',[39m
+[32m  length: 92,[39m
+[32m  replacement_cost: '9.99',[39m
+[32m  rating: 'R',[39m
+[32m  special_features: 'Trailers,Deleted Scenes',[39m
+[32m  last_update: 2006-02-14T22:03:42.000Z[39m
+[32m}[39m
+Sakila Services | 15:32:39 10-05-2022 | [[36mINFO[39m] : [36mRETURN: {"film_id":23,"title":"ANACONDA CONFESSIONS","description":"A Lacklusture Display of a Dentist And a Dentist who must Fight a Girl in Australia","release_year":2006,"language_id":1,"original_language_id":null,"rental_duration":3,"rental_rate":"0.99","length":92,"replacement_cost":"9.99","rating":"R","special_features":"Trailers,Deleted Scenes","last_update":"2006-02-14T22:03:42.000Z"}[39m
+Sakila Services | 15:47:09 10-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/23?ahihihi=1234&bdhfbs=123&token=12345[39m
+Sakila Services | 15:47:09 10-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  film_id: 23,[39m
+[32m  title: 'ANACONDA CONFESSIONS',[39m
+[32m  description: 'A Lacklusture Display of a Dentist And a Dentist who must Fight a Girl in Australia',[39m
+[32m  release_year: 2006,[39m
+[32m  language_id: 1,[39m
+[32m  original_language_id: null,[39m
+[32m  rental_duration: 3,[39m
+[32m  rental_rate: '0.99',[39m
+[32m  length: 92,[39m
+[32m  replacement_cost: '9.99',[39m
+[32m  rating: 'R',[39m
+[32m  special_features: 'Trailers,Deleted Scenes',[39m
+[32m  last_update: 2006-02-14T22:03:42.000Z[39m
+[32m}[39m
+Sakila Services | 15:47:09 10-05-2022 | [[31mERROR[39m] : TypeError: res.pass is not a function
+    at sakilaController.getFilm (D:\learn\signleton-class\controller\sakila.controller.js:13:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\learn\signleton-class\router\extention.js:26:17
+Sakila Services | 15:47:09 10-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"res.pass is not a function"}[39m
+Sakila Services | 15:47:42 10-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/23?ahihihi=1234&bdhfbs=123&token=12345[39m
+Sakila Services | 15:47:42 10-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  film_id: 23,[39m
+[32m  title: 'ANACONDA CONFESSIONS',[39m
+[32m  description: 'A Lacklusture Display of a Dentist And a Dentist who must Fight a Girl in Australia',[39m
+[32m  release_year: 2006,[39m
+[32m  language_id: 1,[39m
+[32m  original_language_id: null,[39m
+[32m  rental_duration: 3,[39m
+[32m  rental_rate: '0.99',[39m
+[32m  length: 92,[39m
+[32m  replacement_cost: '9.99',[39m
+[32m  rating: 'R',[39m
+[32m  special_features: 'Trailers,Deleted Scenes',[39m
+[32m  last_update: 2006-02-14T22:03:42.000Z[39m
+[32m}[39m
+Sakila Services | 15:47:42 10-05-2022 | [[36mINFO[39m] : [36mRETURN: {"film_id":23,"title":"ANACONDA CONFESSIONS","description":"A Lacklusture Display of a Dentist And a Dentist who must Fight a Girl in Australia","release_year":2006,"language_id":1,"original_language_id":null,"rental_duration":3,"rental_rate":"0.99","length":92,"replacement_cost":"9.99","rating":"R","special_features":"Trailers,Deleted Scenes","last_update":"2006-02-14T22:03:42.000Z"}[39m
+Sakila Services | 15:51:32 10-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/23?ahihihi=1234&bdhfbs=123&token=12345[39m
+Sakila Services | 15:51:32 10-05-2022 | [[31mERROR[39m] : Error
+    at ServerResponse.fail (D:\learn\signleton-class\router\extention.js:63:19)
+    at all.authenticate (D:\learn\signleton-class\middleware\all.js:13:9)
+    at D:\learn\signleton-class\router\extention.js:27:23
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\learn\signleton-class\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\learn\signleton-class\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at D:\learn\signleton-class\node_modules\express\lib\router\index.js:284:15
+    at param (D:\learn\signleton-class\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\learn\signleton-class\node_modules\express\lib\router\index.js:376:14)
+Sakila Services | 15:51:32 10-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Permissions denied","debug_msg":null}[39m
+Sakila Services | 15:53:54 10-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/23?ahihihi=1234&bdhfbs=123&token=12345[39m
+Sakila Services | 15:53:54 10-05-2022 | [[31mERROR[39m] : Error
+    at ServerResponse.fail (D:\learn\signleton-class\router\extention.js:77:19)
+    at all.authenticate (D:\learn\signleton-class\middleware\all.js:13:9)
+    at D:\learn\signleton-class\router\extention.js:41:17
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\learn\signleton-class\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\learn\signleton-class\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at D:\learn\signleton-class\node_modules\express\lib\router\index.js:284:15
+    at param (D:\learn\signleton-class\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\learn\signleton-class\node_modules\express\lib\router\index.js:376:14)
+Sakila Services | 15:53:54 10-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Permissions denied","debug_msg":null}[39m
+Sakila Services | 15:55:53 10-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/23?ahihihi=1234&bdhfbs=123&token=12345[39m
+Sakila Services | 15:55:53 10-05-2022 | [[31mERROR[39m] : [31m[31merror[31m[39m
+Sakila Services | 15:55:53 10-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Permissions denied","debug_msg":null}[39m
+Sakila Services | 15:56:33 10-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/23?ahihihi=1234&bdhfbs=123&token=12345[39m
+Sakila Services | 15:56:33 10-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Permissions denied","debug_msg":null}[39m
+Sakila Services | 15:57:49 10-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/23?ahihihi=1234&bdhfbs=123&token=12345[39m
+Sakila Services | 15:57:49 10-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":{},"error_msg":"Permissions denied","debug_msg":null}[39m
+Sakila Services | 15:59:06 10-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/23?ahihihi=1234&bdhfbs=123&token=12345[39m
+Sakila Services | 15:59:06 10-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":{},"error_msg":"Permissions denied","debug_msg":null}[39m
+Sakila Services | 17:27:54 10-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/23?ahihihi=1234&bdhfbs=123&token=12345[39m
+Sakila Services | 17:27:54 10-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":{},"error_msg":"Permissions denied","debug_msg":null}[39m

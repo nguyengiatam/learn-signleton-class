@@ -1,15 +1,29 @@
-const db = require('../config/db.config');
 const DataTypes = require("sequelize").DataTypes;
+const {Sequelize} = require('sequelize');
+
 const fs = require('fs');
 
 
 class Database{
     static init() {
-        this.loadModels()
+        const db = new Sequelize('sakila', 'root', 'root', {
+            host: 'localhost',
+            dialect: 'mysql',
+            pool: {
+                max: 5,
+                min: 0,
+                acquire: 30000,
+                idle: 10000
+            }
+        })
+        
+        db.authenticate().then(() => {console.log('Connected')}).catch(err => {console.log(err)});
+
+        this.loadModels(db)
         this.createAssocitions()
     }
 
-    static loadModels(){
+    static loadModels(db){
         const modelsNameList = fs.readdirSync(`${__dirname}/models`).map(val => val.toLowerCase()).filter(val => /^.*.model.js$/.test(val))
         const modelList = modelsNameList.map(val => require(`${__dirname}/models/${val}`)(db, DataTypes))
         this.models = {}

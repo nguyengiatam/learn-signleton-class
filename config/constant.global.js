@@ -1,0 +1,1 @@
+global.MAX_CONNECTION = 5

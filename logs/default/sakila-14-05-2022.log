@@ -1,0 +1,159 @@
+Sakila Services | 08:16:51 14-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/1065?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 08:16:51 14-05-2022 | [[31mERROR[39m] : ReferenceError: a is not defined
+    at controller.getFilm (D:\learn\signleton-class\controller\sakila.controller.js:8:17)
+    at D:\learn\signleton-class\router\extention.js:28:23
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\learn\signleton-class\node_modules\express\lib\router\route.js:144:13)
+    at nextS (D:\learn\signleton-class\router\extention.js:39:39)
+    at all.authenticate (D:\learn\signleton-class\middleware\sakila.js:11:16)
+    at D:\learn\signleton-class\router\extention.js:42:17
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\learn\signleton-class\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\learn\signleton-class\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at D:\learn\signleton-class\node_modules\express\lib\router\index.js:284:15
+    at param (D:\learn\signleton-class\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\learn\signleton-class\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\learn\signleton-class\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\learn\signleton-class\node_modules\express\lib\router\index.js:280:10)
+Sakila Services | 08:16:51 14-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"a is not defined"}[39m
+Sakila Services | 08:19:23 14-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/1065?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 08:19:23 14-05-2022 | [[31mERROR[39m] : ReferenceError: a is not defined
+    at controller.getFilm (D:\learn\signleton-class\controller\sakila.controller.js:8:17)
+    at D:\learn\signleton-class\router\extention.js:28:23
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\learn\signleton-class\node_modules\express\lib\router\route.js:144:13)
+    at nextS (D:\learn\signleton-class\router\extention.js:39:39)
+    at all.authenticate (D:\learn\signleton-class\middleware\sakila.js:11:16)
+    at D:\learn\signleton-class\router\extention.js:42:17
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\learn\signleton-class\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\learn\signleton-class\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at D:\learn\signleton-class\node_modules\express\lib\router\index.js:284:15
+    at param (D:\learn\signleton-class\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\learn\signleton-class\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\learn\signleton-class\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\learn\signleton-class\node_modules\express\lib\router\index.js:280:10)
+Sakila Services | 08:19:23 14-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"a is not defined"}[39m
+Sakila Services | 11:08:00 14-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/1065?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 11:08:00 14-05-2022 | [[31mERROR[39m] : ReferenceError: a is not defined
+    at controller.getFilm (D:\learn\signleton-class\controller\sakila.controller.js:8:17)
+    at D:\learn\signleton-class\router\extention.js:28:23
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\learn\signleton-class\node_modules\express\lib\router\route.js:144:13)
+    at nextS (D:\learn\signleton-class\router\extention.js:39:39)
+    at all.authenticate (D:\learn\signleton-class\middleware\sakila.js:12:16)
+    at D:\learn\signleton-class\router\extention.js:42:17
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\learn\signleton-class\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\learn\signleton-class\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\learn\signleton-class\node_modules\express\lib\router\layer.js:95:5)
+    at D:\learn\signleton-class\node_modules\express\lib\router\index.js:284:15
+    at param (D:\learn\signleton-class\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\learn\signleton-class\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\learn\signleton-class\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\learn\signleton-class\node_modules\express\lib\router\index.js:280:10)
+Sakila Services | 11:08:00 14-05-2022 | [[36mINFO[39m] : [36mRETURN: {"error_code":1,"data":null,"error_msg":"Có lỗi xảy ra. Vui lòng thử lại sau","debug_msg":"a is not defined"}[39m
+Sakila Services | 11:08:12 14-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/1065?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 11:08:12 14-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  film_id: 1065,[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release_year: null,[39m
+[32m  language_id: 1,[39m
+[32m  original_language_id: null,[39m
+[32m  rental_duration: 30,[39m
+[32m  rental_rate: '10.00',[39m
+[32m  length: 120,[39m
+[32m  replacement_cost: '999.00',[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  last_update: 2022-05-12T08:49:37.000Z[39m
+[32m}[39m
+Sakila Services | 11:08:12 14-05-2022 | [[36mINFO[39m] : [36mRETURN: {"film_id":1065,"title":"Chú bé đần","description":"Câu chuyện về chú bé đần","release_year":null,"language_id":1,"original_language_id":null,"rental_duration":30,"rental_rate":"10.00","length":120,"replacement_cost":"999.00","rating":"PG-13","special_features":"Trailers","last_update":"2022-05-12T08:49:37.000Z"}[39m
+Sakila Services | 11:09:37 14-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/1065?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 11:09:37 14-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  film_id: 1065,[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release_year: null,[39m
+[32m  language_id: 1,[39m
+[32m  original_language_id: null,[39m
+[32m  rental_duration: 30,[39m
+[32m  rental_rate: '10.00',[39m
+[32m  length: 120,[39m
+[32m  replacement_cost: '999.00',[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  last_update: 2022-05-12T08:49:37.000Z[39m
+[32m}[39m
+Sakila Services | 11:09:37 14-05-2022 | [[36mINFO[39m] : [36mRETURN: {"film_id":1065,"title":"Chú bé đần","description":"Câu chuyện về chú bé đần","release_year":null,"language_id":1,"original_language_id":null,"rental_duration":30,"rental_rate":"10.00","length":120,"replacement_cost":"999.00","rating":"PG-13","special_features":"Trailers","last_update":"2022-05-12T08:49:37.000Z"}[39m
+Sakila Services | 11:12:03 14-05-2022 | [[36mINFO[39m] : [36mGET /api/sakila/film/1065?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 11:12:03 14-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  film_id: 1065,[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release_year: null,[39m
+[32m  language_id: 1,[39m
+[32m  original_language_id: null,[39m
+[32m  rental_duration: 30,[39m
+[32m  rental_rate: '10.00',[39m
+[32m  length: 120,[39m
+[32m  replacement_cost: '999.00',[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  last_update: 2022-05-12T08:49:37.000Z[39m
+[32m}[39m
+Sakila Services | 11:12:03 14-05-2022 | [[36mINFO[39m] : [36mRETURN: {"film_id":1065,"title":"Chú bé đần","description":"Câu chuyện về chú bé đần","release_year":null,"language_id":1,"original_language_id":null,"rental_duration":30,"rental_rate":"10.00","length":120,"replacement_cost":"999.00","rating":"PG-13","special_features":"Trailers","last_update":"2022-05-12T08:49:37.000Z"}[39m
+Sakila Services | 11:12:58 14-05-2022 | [[36mINFO[39m] : [36m::1 - - GET /api/sakila/film/1065?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 11:12:58 14-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  film_id: 1065,[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release_year: null,[39m
+[32m  language_id: 1,[39m
+[32m  original_language_id: null,[39m
+[32m  rental_duration: 30,[39m
+[32m  rental_rate: '10.00',[39m
+[32m  length: 120,[39m
+[32m  replacement_cost: '999.00',[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  last_update: 2022-05-12T08:49:37.000Z[39m
+[32m}[39m
+Sakila Services | 11:12:58 14-05-2022 | [[36mINFO[39m] : [36mRETURN: {"film_id":1065,"title":"Chú bé đần","description":"Câu chuyện về chú bé đần","release_year":null,"language_id":1,"original_language_id":null,"rental_duration":30,"rental_rate":"10.00","length":120,"replacement_cost":"999.00","rating":"PG-13","special_features":"Trailers","last_update":"2022-05-12T08:49:37.000Z"}[39m
+Sakila Services | 11:18:38 14-05-2022 | [[36mINFO[39m] : [36m::1 - - GET /api/sakila/film/1065?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 11:18:38 14-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  film_id: 1065,[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release_year: null,[39m
+[32m  language_id: 1,[39m
+[32m  original_language_id: null,[39m
+[32m  rental_duration: 30,[39m
+[32m  rental_rate: '10.00',[39m
+[32m  length: 120,[39m
+[32m  replacement_cost: '999.00',[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  last_update: 2022-05-12T08:49:37.000Z[39m
+[32m}[39m
+Sakila Services | 11:18:38 14-05-2022 | [[36mINFO[39m] : [36mRETURN: {"film_id":1065,"title":"Chú bé đần","description":"Câu chuyện về chú bé đần","release_year":null,"language_id":1,"original_language_id":null,"rental_duration":30,"rental_rate":"10.00","length":120,"replacement_cost":"999.00","rating":"PG-13","special_features":"Trailers","last_update":"2022-05-12T08:49:37.000Z"}[39m
+Sakila Services | 11:21:21 14-05-2022 | [[36mINFO[39m] : [36m::1 - - GET /api/sakila/film/1065?ahihihi=1234&bdhfbs=123&token=1234[39m
+Sakila Services | 11:21:21 14-05-2022 | [[32mDEBUG[39m] : [32m{[39m
+[32m  film_id: 1065,[39m
+[32m  title: 'Chú bé đần',[39m
+[32m  description: 'Câu chuyện về chú bé đần',[39m
+[32m  release_year: null,[39m
+[32m  language_id: 1,[39m
+[32m  original_language_id: null,[39m
+[32m  rental_duration: 30,[39m
+[32m  rental_rate: '10.00',[39m
+[32m  length: 120,[39m
+[32m  replacement_cost: '999.00',[39m
+[32m  rating: 'PG-13',[39m
+[32m  special_features: 'Trailers',[39m
+[32m  last_update: 2022-05-12T08:49:37.000Z[39m
+[32m}[39m
+Sakila Services | 11:21:21 14-05-2022 | [[36mINFO[39m] : [36mRETURN: {"film_id":1065,"title":"Chú bé đần","description":"Câu chuyện về chú bé đần","release_year":null,"language_id":1,"original_language_id":null,"rental_duration":30,"rental_rate":"10.00","length":120,"replacement_cost":"999.00","rating":"PG-13","special_features":"Trailers","last_update":"2022-05-12T08:49:37.000Z"}[39m
